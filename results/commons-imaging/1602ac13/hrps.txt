@@ -27,20 +27,20 @@
 [INFO] Executing tasks
 
 main:
-     [copy] Copying 2 files to /workspaces/rv-project/emop_scripts/repos/commons-imaging/target/apidocs/META-INF
+     [copy] Copying 2 files to /workspaces/rv-project/scripts-emop/repos/commons-imaging/target/apidocs/META-INF
 [INFO] Executed tasks
 [INFO] 
 [INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ commons-imaging ---
 [INFO] 
 [INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-imaging ---
-[INFO] Executing: /bin/sh -c cd '/workspaces/rv-project/emop_scripts/repos/commons-imaging' && 'git' 'rev-parse' '--verify' 'HEAD'
-[INFO] Working directory: /workspaces/rv-project/emop_scripts/repos/commons-imaging
-[INFO] Storing buildNumber: 1602ac13345f5aec30cdc94381a0f6740fddb022 at timestamp: 1696012716989
+[INFO] Executing: /bin/sh -c cd '/workspaces/rv-project/scripts-emop/repos/commons-imaging' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /workspaces/rv-project/scripts-emop/repos/commons-imaging
+[INFO] Storing buildNumber: 1602ac13345f5aec30cdc94381a0f6740fddb022 at timestamp: 1696154656587
 [WARNING] Cannot get the branch information from the git repository: 
 Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
 
-[INFO] Executing: /bin/sh -c cd '/workspaces/rv-project/emop_scripts/repos/commons-imaging' && 'git' 'rev-parse' '--verify' 'HEAD'
-[INFO] Working directory: /workspaces/rv-project/emop_scripts/repos/commons-imaging
+[INFO] Executing: /bin/sh -c cd '/workspaces/rv-project/scripts-emop/repos/commons-imaging' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /workspaces/rv-project/scripts-emop/repos/commons-imaging
 [INFO] Storing buildScmBranch: UNKNOWN
 [INFO] 
 [INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ commons-imaging ---
@@ -50,7 +50,7 @@ Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ commons-imaging ---
 [INFO] Changes detected - recompiling the module!
-[INFO] Compiling 359 source files to /workspaces/rv-project/emop_scripts/repos/commons-imaging/target/classes
+[INFO] Compiling 359 source files to /workspaces/rv-project/scripts-emop/repos/commons-imaging/target/classes
 [INFO] 
 [INFO] --- maven-bundle-plugin:4.1.0:manifest (bundle-manifest) @ commons-imaging ---
 [INFO] 
@@ -64,10 +64,10 @@ Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ commons-imaging ---
 [INFO] Changes detected - recompiling the module!
-[INFO] Compiling 161 source files to /workspaces/rv-project/emop_scripts/repos/commons-imaging/target/test-classes
+[INFO] Compiling 161 source files to /workspaces/rv-project/scripts-emop/repos/commons-imaging/target/test-classes
 [INFO] 
 [INFO] --- jacoco-maven-plugin:0.8.3:prepare-agent (prepare-agent) @ commons-imaging ---
-[INFO] argLine set to -javaagent:/home/mopuser/.m2/repository/org/jacoco/org.jacoco.agent/0.8.3/org.jacoco.agent-0.8.3-runtime.jar=destfile=/workspaces/rv-project/emop_scripts/repos/commons-imaging/target/jacoco.exec -Xmx512m
+[INFO] argLine set to -javaagent:/home/mopuser/.m2/repository/org/jacoco/org.jacoco.agent/0.8.3/org.jacoco.agent-0.8.3-runtime.jar=destfile=/workspaces/rv-project/scripts-emop/repos/commons-imaging/target/jacoco.exec -Xmx512m
 [INFO] 
 [INFO] >>> emop-maven-plugin:1.0-SNAPSHOT:monitor-hybrid (default-cli) > test-compile @ commons-imaging >>>
 [INFO] 
@@ -89,14 +89,14 @@ main:
 [INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ commons-imaging ---
 [INFO] 
 [INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-imaging ---
-[INFO] Executing: /bin/sh -c cd '/workspaces/rv-project/emop_scripts/repos/commons-imaging' && 'git' 'rev-parse' '--verify' 'HEAD'
-[INFO] Working directory: /workspaces/rv-project/emop_scripts/repos/commons-imaging
-[INFO] Storing buildNumber: 1602ac13345f5aec30cdc94381a0f6740fddb022 at timestamp: 1696012722121
+[INFO] Executing: /bin/sh -c cd '/workspaces/rv-project/scripts-emop/repos/commons-imaging' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /workspaces/rv-project/scripts-emop/repos/commons-imaging
+[INFO] Storing buildNumber: 1602ac13345f5aec30cdc94381a0f6740fddb022 at timestamp: 1696154661032
 [WARNING] Cannot get the branch information from the git repository: 
 Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
 
-[INFO] Executing: /bin/sh -c cd '/workspaces/rv-project/emop_scripts/repos/commons-imaging' && 'git' 'rev-parse' '--verify' 'HEAD'
-[INFO] Working directory: /workspaces/rv-project/emop_scripts/repos/commons-imaging
+[INFO] Executing: /bin/sh -c cd '/workspaces/rv-project/scripts-emop/repos/commons-imaging' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /workspaces/rv-project/scripts-emop/repos/commons-imaging
 [INFO] Storing buildScmBranch: UNKNOWN
 [INFO] 
 [INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ commons-imaging ---
@@ -106,7 +106,7 @@ Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ commons-imaging ---
 [INFO] Changes detected - recompiling the module!
-[INFO] Compiling 359 source files to /workspaces/rv-project/emop_scripts/repos/commons-imaging/target/classes
+[INFO] Compiling 359 source files to /workspaces/rv-project/scripts-emop/repos/commons-imaging/target/classes
 [INFO] 
 [INFO] --- maven-bundle-plugin:4.1.0:manifest (bundle-manifest) @ commons-imaging ---
 [INFO] 
@@ -128,15 +128,15 @@ Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
 [INFO] [eMOP] Invoking the ImpactedMethods Mojo...
 INFO: ChangedMethods: 4
 INFO: NewMethods: 0
-INFO: ImpactedMethods: 3370
+INFO: ImpactedMethods: 250
 INFO: NewClasses: 1
 INFO: OldClasses: 596
 INFO: ChangedClasses: 3
-INFO: AffectedTestClasses: 113
-[INFO] [eMOP Timer] Execute ImpactedMethods Mojo takes 651 ms
+INFO: AffectedTestClasses: 49
+[INFO] [eMOP Timer] Execute ImpactedMethods Mojo takes 518 ms
 [INFO] [eMOP] Invoking the AffectedSpecsMethods Mojo...
-[INFO] [eMOP Timer] Compile-time weaving takes 2553 ms
-[INFO] [eMOP Timer] Compute affected specs takes 677 ms
+[INFO] [eMOP Timer] Compile-time weaving takes 2125 ms
+[INFO] [eMOP Timer] Compute affected specs takes 602 ms
 [INFO] [eMOP Timer] Write affected specs to disk takes 0 ms
 [INFO] [eMOP] Number of affected methods: 4
 [INFO] [eMOP] Number of changed classes: 3
@@ -144,263 +144,263 @@ INFO: AffectedTestClasses: 113
 [INFO] [eMOP] Number of messages to process: 137
 [INFO] [eMOP] Invoking the Monitor Mojo...
 [INFO] AffectedSpecs: 1
-[INFO] [eMOP Timer] Generating aop-ajc.xml and replace it takes 75 ms
+[INFO] [eMOP Timer] Generating aop-ajc.xml and replace it takes 73 ms
 [INFO] 
 [INFO] --- maven-surefire-plugin:2.20:test (default-test) @ commons-imaging ---
 [INFO] 
 [INFO] -------------------------------------------------------
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
-[INFO] Running org.apache.commons.imaging.formats.xmp.XmpDumpTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.744 s - in org.apache.commons.imaging.formats.xmp.XmpDumpTest
-[INFO] Running org.apache.commons.imaging.formats.xmp.XmpUpdateTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.275 s - in org.apache.commons.imaging.formats.xmp.XmpUpdateTest
-[INFO] Running org.apache.commons.imaging.formats.xpm.XpmReadTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.307 s - in org.apache.commons.imaging.formats.xpm.XpmReadTest
-[INFO] Running org.apache.commons.imaging.formats.pnm.PpmFileInfoTest
-[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.imaging.formats.pnm.PpmFileInfoTest
-[INFO] Running org.apache.commons.imaging.formats.pnm.WhiteSpaceReaderTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.imaging.formats.pnm.WhiteSpaceReaderTest
-[INFO] Running org.apache.commons.imaging.formats.pnm.PnmImageParserTest
-[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in org.apache.commons.imaging.formats.pnm.PnmImageParserTest
-[INFO] Running org.apache.commons.imaging.formats.pnm.PbmFileInfoTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.pnm.PbmFileInfoTest
-[INFO] Running org.apache.commons.imaging.formats.pnm.PgmFileInfoTest
-[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.imaging.formats.pnm.PgmFileInfoTest
-[INFO] Running org.apache.commons.imaging.formats.rgbe.RgbeReadTest
-[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.083 s - in org.apache.commons.imaging.formats.rgbe.RgbeReadTest
-[INFO] Running org.apache.commons.imaging.formats.png.PngWithInvalidPngChunkSizeTest
-[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.apache.commons.imaging.formats.png.PngWithInvalidPngChunkSizeTest
-[INFO] Running org.apache.commons.imaging.formats.png.transparencyfilters.TransparencyFilterIndexedColorTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.png.transparencyfilters.TransparencyFilterIndexedColorTest
-[INFO] Running org.apache.commons.imaging.formats.png.PngReadTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.181 s - in org.apache.commons.imaging.formats.png.PngReadTest
-[INFO] Running org.apache.commons.imaging.formats.png.scanlinefilters.ScanlineFilterPaethTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.png.scanlinefilters.ScanlineFilterPaethTest
-[INFO] Running org.apache.commons.imaging.formats.png.scanlinefilters.ScanlineFilterAverageTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.png.scanlinefilters.ScanlineFilterAverageTest
-[INFO] Running org.apache.commons.imaging.formats.png.scanlinefilters.ScanlineFilterUpTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.png.scanlinefilters.ScanlineFilterUpTest
-[INFO] Running org.apache.commons.imaging.formats.png.PngCrcTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.png.PngCrcTest
-[INFO] Running org.apache.commons.imaging.formats.png.ConvertPngToGifTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.349 s - in org.apache.commons.imaging.formats.png.ConvertPngToGifTest
-[INFO] Running org.apache.commons.imaging.formats.png.chunks.PngChunkTextTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.png.chunks.PngChunkTextTest
-[INFO] Running org.apache.commons.imaging.formats.png.chunks.PngChunkScalTest
-[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.commons.imaging.formats.png.chunks.PngChunkScalTest
-[INFO] Running org.apache.commons.imaging.formats.png.chunks.PngChunkIccpTest
-[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.apache.commons.imaging.formats.png.chunks.PngChunkIccpTest
-[INFO] Running org.apache.commons.imaging.formats.png.PngMultipleRoundtripTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.199 s - in org.apache.commons.imaging.formats.png.PngMultipleRoundtripTest
-[INFO] Running org.apache.commons.imaging.formats.png.PngTextTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 s - in org.apache.commons.imaging.formats.png.PngTextTest
-[INFO] Running org.apache.commons.imaging.formats.png.PngWriteReadTest
-[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.126 s - in org.apache.commons.imaging.formats.png.PngWriteReadTest
-[INFO] Running org.apache.commons.imaging.formats.png.PhysicalScaleTest
-[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.imaging.formats.png.PhysicalScaleTest
+[INFO] Running org.apache.commons.imaging.formats.psd.PsdReadTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.516 s - in org.apache.commons.imaging.formats.psd.PsdReadTest
 [INFO] Running org.apache.commons.imaging.formats.psd.dataparsers.DataParserLabTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.psd.dataparsers.DataParserLabTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.imaging.formats.psd.dataparsers.DataParserLabTest
 [INFO] Running org.apache.commons.imaging.formats.psd.dataparsers.DataParserCmykTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.imaging.formats.psd.dataparsers.DataParserCmykTest
-[INFO] Running org.apache.commons.imaging.formats.psd.dataparsers.DataParserIndexedTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.imaging.formats.psd.dataparsers.DataParserIndexedTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.psd.dataparsers.DataParserCmykTest
 [INFO] Running org.apache.commons.imaging.formats.psd.dataparsers.DataParserGrayscaleTest
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.imaging.formats.psd.dataparsers.DataParserGrayscaleTest
-[INFO] Running org.apache.commons.imaging.formats.psd.ImageResourceBlockTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.imaging.formats.psd.ImageResourceBlockTest
+[INFO] Running org.apache.commons.imaging.formats.psd.dataparsers.DataParserIndexedTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.psd.dataparsers.DataParserIndexedTest
 [INFO] Running org.apache.commons.imaging.formats.psd.ImageResourceTypeTest
 [INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.imaging.formats.psd.ImageResourceTypeTest
-[INFO] Running org.apache.commons.imaging.formats.psd.PsdReadTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in org.apache.commons.imaging.formats.psd.PsdReadTest
-[INFO] Running org.apache.commons.imaging.formats.jpeg.segments.NegSizeSegmentTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.apache.commons.imaging.formats.jpeg.segments.NegSizeSegmentTest
-[INFO] Running org.apache.commons.imaging.formats.jpeg.segments.AppnSegmentTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.commons.imaging.formats.jpeg.segments.AppnSegmentTest
-[INFO] Running org.apache.commons.imaging.formats.jpeg.segments.JfifSegmentTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.imaging.formats.jpeg.segments.JfifSegmentTest
-[INFO] Running org.apache.commons.imaging.formats.jpeg.segments.App2SegmentTest
-[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.commons.imaging.formats.jpeg.segments.App2SegmentTest
-[INFO] Running org.apache.commons.imaging.formats.jpeg.segments.SosSegmentTest
-[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.commons.imaging.formats.jpeg.segments.SosSegmentTest
-[INFO] Running org.apache.commons.imaging.formats.jpeg.iptc.IptcFullDiscardTest
-[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.13 s - in org.apache.commons.imaging.formats.jpeg.iptc.IptcFullDiscardTest
-[INFO] Running org.apache.commons.imaging.formats.jpeg.iptc.IptcUpdateTest
-[INFO] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 s - in org.apache.commons.imaging.formats.jpeg.iptc.IptcUpdateTest
-[INFO] Running org.apache.commons.imaging.formats.jpeg.iptc.IptcTypeLookupTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.jpeg.iptc.IptcTypeLookupTest
-[INFO] Running org.apache.commons.imaging.formats.jpeg.iptc.IptcDumpTest
-[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in org.apache.commons.imaging.formats.jpeg.iptc.IptcDumpTest
-[INFO] Running org.apache.commons.imaging.formats.jpeg.iptc.IptcAddTest
-[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in org.apache.commons.imaging.formats.jpeg.iptc.IptcAddTest
-[INFO] Running org.apache.commons.imaging.formats.jpeg.decoder.JpegInputStreamTest
-[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.commons.imaging.formats.jpeg.decoder.JpegInputStreamTest
-[INFO] Running org.apache.commons.imaging.formats.jpeg.decoder.JpegDecoderTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.149 s - in org.apache.commons.imaging.formats.jpeg.decoder.JpegDecoderTest
-[INFO] Running org.apache.commons.imaging.formats.jpeg.decoder.DctTest
-[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.jpeg.decoder.DctTest
-[INFO] Running org.apache.commons.imaging.formats.jpeg.JpegWithJpegThumbnailTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in org.apache.commons.imaging.formats.jpeg.JpegWithJpegThumbnailTest
-[INFO] Running org.apache.commons.imaging.formats.jpeg.exif.ExifDumpTest
-[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in org.apache.commons.imaging.formats.jpeg.exif.ExifDumpTest
-[INFO] Running org.apache.commons.imaging.formats.jpeg.exif.AsciiFieldTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.imaging.formats.jpeg.exif.AsciiFieldTest
-[INFO] Running org.apache.commons.imaging.formats.jpeg.exif.TextFieldTest
-[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in org.apache.commons.imaging.formats.jpeg.exif.TextFieldTest
-[INFO] Running org.apache.commons.imaging.formats.jpeg.exif.MicrosoftTagTest
-[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s - in org.apache.commons.imaging.formats.jpeg.exif.MicrosoftTagTest
-[INFO] Running org.apache.commons.imaging.formats.jpeg.exif.GpsTest
-[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in org.apache.commons.imaging.formats.jpeg.exif.GpsTest
-[INFO] Running org.apache.commons.imaging.formats.jpeg.exif.ExifRewriteTest
-[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.338 s - in org.apache.commons.imaging.formats.jpeg.exif.ExifRewriteTest
-[INFO] Running org.apache.commons.imaging.formats.jpeg.exif.WriteExifMetadataExampleTest
-[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 s - in org.apache.commons.imaging.formats.jpeg.exif.WriteExifMetadataExampleTest
-[INFO] Running org.apache.commons.imaging.formats.jpeg.exif.MakerNoteFieldTest
-[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.apache.commons.imaging.formats.jpeg.exif.MakerNoteFieldTest
-[INFO] Running org.apache.commons.imaging.formats.jpeg.xmp.JpegXmpRewriteTest
-[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in org.apache.commons.imaging.formats.jpeg.xmp.JpegXmpRewriteTest
-[INFO] Running org.apache.commons.imaging.formats.jpeg.xmp.JpegXmpDumpTest
-[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.commons.imaging.formats.jpeg.xmp.JpegXmpDumpTest
-[INFO] Running org.apache.commons.imaging.formats.jpeg.xmp.JpegXmpParserTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.jpeg.xmp.JpegXmpParserTest
-[INFO] Running org.apache.commons.imaging.formats.jpeg.JpegReadTest
-[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.831 s - in org.apache.commons.imaging.formats.jpeg.JpegReadTest
-[INFO] Running org.apache.commons.imaging.formats.jpeg.JpegWithInvalidDhtSegmentTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.jpeg.JpegWithInvalidDhtSegmentTest
-[INFO] Running org.apache.commons.imaging.formats.tiff.TiffReadWriteTagsTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.tiff.TiffReadWriteTagsTest
+[INFO] Running org.apache.commons.imaging.formats.psd.ImageResourceBlockTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.imaging.formats.psd.ImageResourceBlockTest
+[INFO] Running org.apache.commons.imaging.formats.tiff.TiffTagsTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in org.apache.commons.imaging.formats.tiff.TiffTagsTest
+[INFO] Running org.apache.commons.imaging.formats.tiff.TiffRoundtripTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.413 s - in org.apache.commons.imaging.formats.tiff.TiffRoundtripTest
+[INFO] Running org.apache.commons.imaging.formats.tiff.taginfos.TagInfoSLongTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.imaging.formats.tiff.taginfos.TagInfoSLongTest
+[INFO] Running org.apache.commons.imaging.formats.tiff.taginfos.TagInfoByteOrShortTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.tiff.taginfos.TagInfoByteOrShortTest
+[INFO] Running org.apache.commons.imaging.formats.tiff.taginfos.TagInfoSShortTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.tiff.taginfos.TagInfoSShortTest
+[INFO] Running org.apache.commons.imaging.formats.tiff.taginfos.TagInfoSShortsTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.imaging.formats.tiff.taginfos.TagInfoSShortsTest
+[INFO] Running org.apache.commons.imaging.formats.tiff.taginfos.TagInfoUnknownTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.imaging.formats.tiff.taginfos.TagInfoUnknownTest
+[INFO] Running org.apache.commons.imaging.formats.tiff.taginfos.TagInfoSByteTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.tiff.taginfos.TagInfoSByteTest
+[INFO] Running org.apache.commons.imaging.formats.tiff.taginfos.TagInfoByteTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.imaging.formats.tiff.taginfos.TagInfoByteTest
+[INFO] Running org.apache.commons.imaging.formats.tiff.taginfos.TagInfoSBytesTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.imaging.formats.tiff.taginfos.TagInfoSBytesTest
 [INFO] Running org.apache.commons.imaging.formats.tiff.TiffReadTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.319 s - in org.apache.commons.imaging.formats.tiff.TiffReadTest
-[INFO] Running org.apache.commons.imaging.formats.tiff.fieldtypes.FieldTypeAsciiTest
-[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.imaging.formats.tiff.fieldtypes.FieldTypeAsciiTest
-[INFO] Running org.apache.commons.imaging.formats.tiff.fieldtypes.FieldTypeLongTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.tiff.fieldtypes.FieldTypeLongTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.127 s - in org.apache.commons.imaging.formats.tiff.TiffReadTest
+[INFO] Running org.apache.commons.imaging.formats.tiff.TiffLzwTest
+[WARNING] Tests run: 3, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.221 s - in org.apache.commons.imaging.formats.tiff.TiffLzwTest
+[INFO] Running org.apache.commons.imaging.formats.tiff.fieldtypes.FieldTypeRationalTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.tiff.fieldtypes.FieldTypeRationalTest
+[INFO] Running org.apache.commons.imaging.formats.tiff.fieldtypes.FieldTypeShortTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.tiff.fieldtypes.FieldTypeShortTest
 [INFO] Running org.apache.commons.imaging.formats.tiff.fieldtypes.FieldTypeByteTest
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.tiff.fieldtypes.FieldTypeByteTest
 [INFO] Running org.apache.commons.imaging.formats.tiff.fieldtypes.FieldTypeTest
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.imaging.formats.tiff.fieldtypes.FieldTypeTest
-[INFO] Running org.apache.commons.imaging.formats.tiff.fieldtypes.FieldTypeShortTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.imaging.formats.tiff.fieldtypes.FieldTypeShortTest
-[INFO] Running org.apache.commons.imaging.formats.tiff.fieldtypes.FieldTypeRationalTest
-[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.tiff.fieldtypes.FieldTypeRationalTest
-[INFO] Running org.apache.commons.imaging.formats.tiff.TiffCcittTest
-[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.193 s - in org.apache.commons.imaging.formats.tiff.TiffCcittTest
-[INFO] Running org.apache.commons.imaging.formats.tiff.taginfos.TagInfoSShortTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.tiff.taginfos.TagInfoSShortTest
-[INFO] Running org.apache.commons.imaging.formats.tiff.taginfos.TagInfoByteOrShortTest
-[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.imaging.formats.tiff.taginfos.TagInfoByteOrShortTest
-[INFO] Running org.apache.commons.imaging.formats.tiff.taginfos.TagInfoByteTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.tiff.taginfos.TagInfoByteTest
-[INFO] Running org.apache.commons.imaging.formats.tiff.taginfos.TagInfoSByteTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.tiff.taginfos.TagInfoSByteTest
-[INFO] Running org.apache.commons.imaging.formats.tiff.taginfos.TagInfoSLongTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.tiff.taginfos.TagInfoSLongTest
-[INFO] Running org.apache.commons.imaging.formats.tiff.taginfos.TagInfoSBytesTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.tiff.taginfos.TagInfoSBytesTest
-[INFO] Running org.apache.commons.imaging.formats.tiff.taginfos.TagInfoUnknownTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.tiff.taginfos.TagInfoUnknownTest
-[INFO] Running org.apache.commons.imaging.formats.tiff.taginfos.TagInfoSShortsTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.tiff.taginfos.TagInfoSShortsTest
-[INFO] Running org.apache.commons.imaging.formats.tiff.TiffRoundtripTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.487 s - in org.apache.commons.imaging.formats.tiff.TiffRoundtripTest
-[INFO] Running org.apache.commons.imaging.formats.tiff.JpegImageDataTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.tiff.JpegImageDataTest
-[INFO] Running org.apache.commons.imaging.formats.tiff.TiffTagIntegrityTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.commons.imaging.formats.tiff.TiffTagIntegrityTest
-[INFO] Running org.apache.commons.imaging.formats.tiff.TiffSubImageTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.tiff.TiffSubImageTest
-[INFO] Running org.apache.commons.imaging.formats.tiff.TiffLzwTest
-[WARNING] Tests run: 3, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.21 s - in org.apache.commons.imaging.formats.tiff.TiffLzwTest
-[INFO] Running org.apache.commons.imaging.formats.tiff.write.TiffOutputSetTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.tiff.write.TiffOutputSetTest
+[INFO] Running org.apache.commons.imaging.formats.tiff.fieldtypes.FieldTypeLongTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.imaging.formats.tiff.fieldtypes.FieldTypeLongTest
+[INFO] Running org.apache.commons.imaging.formats.tiff.fieldtypes.FieldTypeAsciiTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.tiff.fieldtypes.FieldTypeAsciiTest
 [INFO] Running org.apache.commons.imaging.formats.tiff.write.TiffOutputDirectoryTest
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.tiff.write.TiffOutputDirectoryTest
-[INFO] Running org.apache.commons.imaging.formats.tiff.TiffTagsTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.imaging.formats.tiff.TiffTagsTest
-[INFO] Running org.apache.commons.imaging.formats.tiff.datareaders.DataReaderStripsTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.tiff.datareaders.DataReaderStripsTest
+[INFO] Running org.apache.commons.imaging.formats.tiff.write.TiffOutputSetTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.imaging.formats.tiff.write.TiffOutputSetTest
 [INFO] Running org.apache.commons.imaging.formats.tiff.photometricinterpreters.PhotometricInterpreterLogLuvTest
 [INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.tiff.photometricinterpreters.PhotometricInterpreterLogLuvTest
-[INFO] Running org.apache.commons.imaging.formats.ico.IcoReadTest
-[WARNING] Tests run: 3, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0.024 s - in org.apache.commons.imaging.formats.ico.IcoReadTest
-[INFO] Running org.apache.commons.imaging.formats.ico.IcoRoundtripTest
-[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in org.apache.commons.imaging.formats.ico.IcoRoundtripTest
-[INFO] Running org.apache.commons.imaging.formats.gif.GifReadTest
-[WARNING] Tests run: 15, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0.36 s - in org.apache.commons.imaging.formats.gif.GifReadTest
+[INFO] Running org.apache.commons.imaging.formats.tiff.datareaders.DataReaderStripsTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.tiff.datareaders.DataReaderStripsTest
+[INFO] Running org.apache.commons.imaging.formats.tiff.TiffCcittTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.237 s - in org.apache.commons.imaging.formats.tiff.TiffCcittTest
+[INFO] Running org.apache.commons.imaging.formats.tiff.JpegImageDataTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.tiff.JpegImageDataTest
+[INFO] Running org.apache.commons.imaging.formats.tiff.TiffReadWriteTagsTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.imaging.formats.tiff.TiffReadWriteTagsTest
+[INFO] Running org.apache.commons.imaging.formats.tiff.TiffSubImageTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.tiff.TiffSubImageTest
+[INFO] Running org.apache.commons.imaging.formats.tiff.TiffTagIntegrityTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.commons.imaging.formats.tiff.TiffTagIntegrityTest
+[INFO] Running org.apache.commons.imaging.formats.pam.PamReadTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.apache.commons.imaging.formats.pam.PamReadTest
 [INFO] Running org.apache.commons.imaging.formats.wbmp.WbmpReadTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.wbmp.WbmpReadTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.commons.imaging.formats.wbmp.WbmpReadTest
+[INFO] Running org.apache.commons.imaging.formats.bmp.BmpWriterRgbTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.commons.imaging.formats.bmp.BmpWriterRgbTest
+[INFO] Running org.apache.commons.imaging.formats.bmp.BmpRoundtripTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.131 s - in org.apache.commons.imaging.formats.bmp.BmpRoundtripTest
+[INFO] Running org.apache.commons.imaging.formats.bmp.BmpReadTest
+[WARNING] Tests run: 20, Failures: 0, Errors: 0, Skipped: 5, Time elapsed: 0.028 s - in org.apache.commons.imaging.formats.bmp.BmpReadTest
+[INFO] Running org.apache.commons.imaging.formats.jpeg.exif.WriteExifMetadataExampleTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.119 s - in org.apache.commons.imaging.formats.jpeg.exif.WriteExifMetadataExampleTest
+[INFO] Running org.apache.commons.imaging.formats.jpeg.exif.ExifDumpTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in org.apache.commons.imaging.formats.jpeg.exif.ExifDumpTest
+[INFO] Running org.apache.commons.imaging.formats.jpeg.exif.MicrosoftTagTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in org.apache.commons.imaging.formats.jpeg.exif.MicrosoftTagTest
+[INFO] Running org.apache.commons.imaging.formats.jpeg.exif.MakerNoteFieldTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in org.apache.commons.imaging.formats.jpeg.exif.MakerNoteFieldTest
+[INFO] Running org.apache.commons.imaging.formats.jpeg.exif.TextFieldTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in org.apache.commons.imaging.formats.jpeg.exif.TextFieldTest
+[INFO] Running org.apache.commons.imaging.formats.jpeg.exif.AsciiFieldTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.commons.imaging.formats.jpeg.exif.AsciiFieldTest
+[INFO] Running org.apache.commons.imaging.formats.jpeg.exif.GpsTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in org.apache.commons.imaging.formats.jpeg.exif.GpsTest
+[INFO] Running org.apache.commons.imaging.formats.jpeg.exif.ExifRewriteTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.248 s - in org.apache.commons.imaging.formats.jpeg.exif.ExifRewriteTest
+[INFO] Running org.apache.commons.imaging.formats.jpeg.iptc.IptcDumpTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.apache.commons.imaging.formats.jpeg.iptc.IptcDumpTest
+[INFO] Running org.apache.commons.imaging.formats.jpeg.iptc.IptcTypeLookupTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.jpeg.iptc.IptcTypeLookupTest
+[INFO] Running org.apache.commons.imaging.formats.jpeg.iptc.IptcAddTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in org.apache.commons.imaging.formats.jpeg.iptc.IptcAddTest
+[INFO] Running org.apache.commons.imaging.formats.jpeg.iptc.IptcUpdateTest
+[INFO] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in org.apache.commons.imaging.formats.jpeg.iptc.IptcUpdateTest
+[INFO] Running org.apache.commons.imaging.formats.jpeg.iptc.IptcFullDiscardTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.086 s - in org.apache.commons.imaging.formats.jpeg.iptc.IptcFullDiscardTest
+[INFO] Running org.apache.commons.imaging.formats.jpeg.segments.AppnSegmentTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.jpeg.segments.AppnSegmentTest
+[INFO] Running org.apache.commons.imaging.formats.jpeg.segments.NegSizeSegmentTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.apache.commons.imaging.formats.jpeg.segments.NegSizeSegmentTest
+[INFO] Running org.apache.commons.imaging.formats.jpeg.segments.JfifSegmentTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.imaging.formats.jpeg.segments.JfifSegmentTest
+[INFO] Running org.apache.commons.imaging.formats.jpeg.segments.SosSegmentTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.commons.imaging.formats.jpeg.segments.SosSegmentTest
+[INFO] Running org.apache.commons.imaging.formats.jpeg.segments.App2SegmentTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.imaging.formats.jpeg.segments.App2SegmentTest
+[INFO] Running org.apache.commons.imaging.formats.jpeg.xmp.JpegXmpRewriteTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in org.apache.commons.imaging.formats.jpeg.xmp.JpegXmpRewriteTest
+[INFO] Running org.apache.commons.imaging.formats.jpeg.xmp.JpegXmpDumpTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.commons.imaging.formats.jpeg.xmp.JpegXmpDumpTest
+[INFO] Running org.apache.commons.imaging.formats.jpeg.xmp.JpegXmpParserTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.imaging.formats.jpeg.xmp.JpegXmpParserTest
+[INFO] Running org.apache.commons.imaging.formats.jpeg.decoder.JpegInputStreamTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.imaging.formats.jpeg.decoder.JpegInputStreamTest
+[INFO] Running org.apache.commons.imaging.formats.jpeg.decoder.JpegDecoderTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.166 s - in org.apache.commons.imaging.formats.jpeg.decoder.JpegDecoderTest
+[INFO] Running org.apache.commons.imaging.formats.jpeg.decoder.DctTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.commons.imaging.formats.jpeg.decoder.DctTest
+[INFO] Running org.apache.commons.imaging.formats.jpeg.JpegReadTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.128 s - in org.apache.commons.imaging.formats.jpeg.JpegReadTest
+[INFO] Running org.apache.commons.imaging.formats.jpeg.JpegWithJpegThumbnailTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.commons.imaging.formats.jpeg.JpegWithJpegThumbnailTest
+[INFO] Running org.apache.commons.imaging.formats.jpeg.JpegWithInvalidDhtSegmentTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.jpeg.JpegWithInvalidDhtSegmentTest
+[INFO] Running org.apache.commons.imaging.formats.icns.IcnsReadTest
+[WARNING] Tests run: 9, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0.018 s - in org.apache.commons.imaging.formats.icns.IcnsReadTest
+[INFO] Running org.apache.commons.imaging.formats.icns.IcnsRoundTripTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.apache.commons.imaging.formats.icns.IcnsRoundTripTest
+[INFO] Running org.apache.commons.imaging.formats.xmp.XmpUpdateTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.175 s - in org.apache.commons.imaging.formats.xmp.XmpUpdateTest
+[INFO] Running org.apache.commons.imaging.formats.xmp.XmpDumpTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.apache.commons.imaging.formats.xmp.XmpDumpTest
+[INFO] Running org.apache.commons.imaging.formats.rgbe.RgbeReadTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.06 s - in org.apache.commons.imaging.formats.rgbe.RgbeReadTest
+[INFO] Running org.apache.commons.imaging.formats.pcx.RleReaderTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.imaging.formats.pcx.RleReaderTest
 [INFO] Running org.apache.commons.imaging.formats.pcx.PcxReadTest
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in org.apache.commons.imaging.formats.pcx.PcxReadTest
-[INFO] Running org.apache.commons.imaging.formats.pcx.RleReaderTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.pcx.RleReaderTest
-[INFO] Running org.apache.commons.imaging.formats.icns.IcnsReadTest
-[WARNING] Tests run: 9, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0.013 s - in org.apache.commons.imaging.formats.icns.IcnsReadTest
-[INFO] Running org.apache.commons.imaging.formats.icns.IcnsRoundTripTest
-[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.apache.commons.imaging.formats.icns.IcnsRoundTripTest
-[INFO] Running org.apache.commons.imaging.formats.pam.PamReadTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.commons.imaging.formats.pam.PamReadTest
-[INFO] Running org.apache.commons.imaging.formats.bmp.BmpReadTest
-[WARNING] Tests run: 20, Failures: 0, Errors: 0, Skipped: 5, Time elapsed: 0.019 s - in org.apache.commons.imaging.formats.bmp.BmpReadTest
-[INFO] Running org.apache.commons.imaging.formats.bmp.BmpRoundtripTest
-[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.067 s - in org.apache.commons.imaging.formats.bmp.BmpRoundtripTest
-[INFO] Running org.apache.commons.imaging.formats.bmp.BmpWriterRgbTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.bmp.BmpWriterRgbTest
+[INFO] Running org.apache.commons.imaging.formats.png.chunks.PngChunkTextTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.commons.imaging.formats.png.chunks.PngChunkTextTest
+[INFO] Running org.apache.commons.imaging.formats.png.chunks.PngChunkScalTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.commons.imaging.formats.png.chunks.PngChunkScalTest
+[INFO] Running org.apache.commons.imaging.formats.png.chunks.PngChunkIccpTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.apache.commons.imaging.formats.png.chunks.PngChunkIccpTest
+[INFO] Running org.apache.commons.imaging.formats.png.transparencyfilters.TransparencyFilterIndexedColorTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.apache.commons.imaging.formats.png.transparencyfilters.TransparencyFilterIndexedColorTest
+[INFO] Running org.apache.commons.imaging.formats.png.PhysicalScaleTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.png.PhysicalScaleTest
+[INFO] Running org.apache.commons.imaging.formats.png.PngTextTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in org.apache.commons.imaging.formats.png.PngTextTest
+[INFO] Running org.apache.commons.imaging.formats.png.PngWriteReadTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.164 s - in org.apache.commons.imaging.formats.png.PngWriteReadTest
+[INFO] Running org.apache.commons.imaging.formats.png.PngMultipleRoundtripTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.171 s - in org.apache.commons.imaging.formats.png.PngMultipleRoundtripTest
+[INFO] Running org.apache.commons.imaging.formats.png.PngReadTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.099 s - in org.apache.commons.imaging.formats.png.PngReadTest
+[INFO] Running org.apache.commons.imaging.formats.png.PngWithInvalidPngChunkSizeTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.imaging.formats.png.PngWithInvalidPngChunkSizeTest
+[INFO] Running org.apache.commons.imaging.formats.png.scanlinefilters.ScanlineFilterAverageTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.commons.imaging.formats.png.scanlinefilters.ScanlineFilterAverageTest
+[INFO] Running org.apache.commons.imaging.formats.png.scanlinefilters.ScanlineFilterUpTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.imaging.formats.png.scanlinefilters.ScanlineFilterUpTest
+[INFO] Running org.apache.commons.imaging.formats.png.scanlinefilters.ScanlineFilterPaethTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.png.scanlinefilters.ScanlineFilterPaethTest
+[INFO] Running org.apache.commons.imaging.formats.png.PngCrcTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.imaging.formats.png.PngCrcTest
+[INFO] Running org.apache.commons.imaging.formats.png.ConvertPngToGifTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.327 s - in org.apache.commons.imaging.formats.png.ConvertPngToGifTest
 [INFO] Running org.apache.commons.imaging.formats.xbm.XbmReadTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in org.apache.commons.imaging.formats.xbm.XbmReadTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in org.apache.commons.imaging.formats.xbm.XbmReadTest
+[INFO] Running org.apache.commons.imaging.formats.gif.GifReadTest
+[WARNING] Tests run: 15, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0.325 s - in org.apache.commons.imaging.formats.gif.GifReadTest
+[INFO] Running org.apache.commons.imaging.formats.pnm.PgmFileInfoTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.imaging.formats.pnm.PgmFileInfoTest
+[INFO] Running org.apache.commons.imaging.formats.pnm.PbmFileInfoTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.pnm.PbmFileInfoTest
+[INFO] Running org.apache.commons.imaging.formats.pnm.PpmFileInfoTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.pnm.PpmFileInfoTest
+[INFO] Running org.apache.commons.imaging.formats.pnm.PnmImageParserTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.pnm.PnmImageParserTest
+[INFO] Running org.apache.commons.imaging.formats.pnm.WhiteSpaceReaderTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.pnm.WhiteSpaceReaderTest
 [INFO] Running org.apache.commons.imaging.formats.dcx.DcxReadTest
-[WARNING] Tests run: 3, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0.013 s - in org.apache.commons.imaging.formats.dcx.DcxReadTest
-[INFO] Running org.apache.commons.imaging.roundtrip.GrayscaleRountripTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.543 s - in org.apache.commons.imaging.roundtrip.GrayscaleRountripTest
-[INFO] Running org.apache.commons.imaging.roundtrip.BitmapRoundtripTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.773 s - in org.apache.commons.imaging.roundtrip.BitmapRoundtripTest
-[INFO] Running org.apache.commons.imaging.roundtrip.LimitedColorRoundtripTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.329 s - in org.apache.commons.imaging.roundtrip.LimitedColorRoundtripTest
-[INFO] Running org.apache.commons.imaging.roundtrip.NullParametersRoundtripTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in org.apache.commons.imaging.roundtrip.NullParametersRoundtripTest
-[INFO] Running org.apache.commons.imaging.common.itu_t4.HuffmanTreeExceptionTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.common.itu_t4.HuffmanTreeExceptionTest
+[WARNING] Tests run: 3, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0.009 s - in org.apache.commons.imaging.formats.dcx.DcxReadTest
+[INFO] Running org.apache.commons.imaging.formats.ico.IcoReadTest
+[WARNING] Tests run: 3, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0.018 s - in org.apache.commons.imaging.formats.ico.IcoReadTest
+[INFO] Running org.apache.commons.imaging.formats.ico.IcoRoundtripTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in org.apache.commons.imaging.formats.ico.IcoRoundtripTest
+[INFO] Running org.apache.commons.imaging.formats.xpm.XpmReadTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.231 s - in org.apache.commons.imaging.formats.xpm.XpmReadTest
+[INFO] Running org.apache.commons.imaging.common.bytesource.ByteSourceDataTest
+[INFO] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 s - in org.apache.commons.imaging.common.bytesource.ByteSourceDataTest
+[INFO] Running org.apache.commons.imaging.common.bytesource.ByteSourceImageTest
+[INFO] Tests run: 170, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.885 s - in org.apache.commons.imaging.common.bytesource.ByteSourceImageTest
 [INFO] Running org.apache.commons.imaging.common.itu_t4.T4_T6_TablesTest
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.common.itu_t4.T4_T6_TablesTest
-[INFO] Running org.apache.commons.imaging.common.bytesource.ByteSourceDataTest
-[INFO] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in org.apache.commons.imaging.common.bytesource.ByteSourceDataTest
-[INFO] Running org.apache.commons.imaging.common.bytesource.ByteSourceImageTest
-[INFO] Tests run: 170, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.856 s - in org.apache.commons.imaging.common.bytesource.ByteSourceImageTest
-[INFO] Running org.apache.commons.imaging.common.BinaryFileFunctionsTest
-[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.imaging.common.BinaryFileFunctionsTest
-[INFO] Running org.apache.commons.imaging.common.RgbBufferedImageFactoryTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.common.RgbBufferedImageFactoryTest
+[INFO] Running org.apache.commons.imaging.common.itu_t4.HuffmanTreeExceptionTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.imaging.common.itu_t4.HuffmanTreeExceptionTest
 [INFO] Running org.apache.commons.imaging.common.RationalNumberTest
-[INFO] Tests run: 65, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in org.apache.commons.imaging.common.RationalNumberTest
+[INFO] Tests run: 65, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in org.apache.commons.imaging.common.RationalNumberTest
+[INFO] Running org.apache.commons.imaging.common.BinaryFileFunctionsTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.common.BinaryFileFunctionsTest
+[INFO] Running org.apache.commons.imaging.common.RgbBufferedImageFactoryTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.imaging.common.RgbBufferedImageFactoryTest
+[INFO] Running org.apache.commons.imaging.ImagingGuessFormatTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.commons.imaging.ImagingGuessFormatTest
+[INFO] Running org.apache.commons.imaging.roundtrip.LimitedColorRoundtripTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.654 s - in org.apache.commons.imaging.roundtrip.LimitedColorRoundtripTest
+[INFO] Running org.apache.commons.imaging.roundtrip.NullParametersRoundtripTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in org.apache.commons.imaging.roundtrip.NullParametersRoundtripTest
+[INFO] Running org.apache.commons.imaging.roundtrip.GrayscaleRountripTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.409 s - in org.apache.commons.imaging.roundtrip.GrayscaleRountripTest
+[INFO] Running org.apache.commons.imaging.roundtrip.BitmapRoundtripTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.79 s - in org.apache.commons.imaging.roundtrip.BitmapRoundtripTest
+[INFO] Running org.apache.commons.imaging.color.ColorXyzTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in org.apache.commons.imaging.color.ColorXyzTest
 [INFO] Running org.apache.commons.imaging.color.ColorConversionsTest
-[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.apache.commons.imaging.color.ColorConversionsTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.commons.imaging.color.ColorConversionsTest
 [INFO] Running org.apache.commons.imaging.color.ColorCmykTest
-[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in org.apache.commons.imaging.color.ColorCmykTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.color.ColorCmykTest
 [INFO] Running org.apache.commons.imaging.color.ColorHunterLabTest
-[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.color.ColorHunterLabTest
-[INFO] Running org.apache.commons.imaging.color.ColorHslTest
-[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.color.ColorHslTest
-[INFO] Running org.apache.commons.imaging.color.ColorHsvTest
-[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.color.ColorHsvTest
-[INFO] Running org.apache.commons.imaging.color.ColorCmyTest
-[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.imaging.color.ColorCmyTest
-[INFO] Running org.apache.commons.imaging.color.ColorCieLchTest
-[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.color.ColorCieLchTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.imaging.color.ColorHunterLabTest
+[INFO] Running org.apache.commons.imaging.color.ColorCieLabTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.imaging.color.ColorCieLabTest
 [INFO] Running org.apache.commons.imaging.color.ColorCieLuvTest
 [INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.color.ColorCieLuvTest
-[INFO] Running org.apache.commons.imaging.color.ColorCieLabTest
-[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.color.ColorCieLabTest
-[INFO] Running org.apache.commons.imaging.color.ColorXyzTest
-[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.color.ColorXyzTest
+[INFO] Running org.apache.commons.imaging.color.ColorCieLchTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.color.ColorCieLchTest
+[INFO] Running org.apache.commons.imaging.color.ColorCmyTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.color.ColorCmyTest
+[INFO] Running org.apache.commons.imaging.color.ColorHsvTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.color.ColorHsvTest
+[INFO] Running org.apache.commons.imaging.color.ColorHslTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.imaging.color.ColorHslTest
 [INFO] Running org.apache.commons.imaging.palette.SimplePaletteTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.palette.SimplePaletteTest
-[INFO] Running org.apache.commons.imaging.palette.DitheringTest
-[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.commons.imaging.palette.DitheringTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.imaging.palette.SimplePaletteTest
 [INFO] Running org.apache.commons.imaging.palette.PaletteQuantizationTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in org.apache.commons.imaging.palette.PaletteQuantizationTest
-[INFO] Running org.apache.commons.imaging.ImagingGuessFormatTest
-[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.commons.imaging.ImagingGuessFormatTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in org.apache.commons.imaging.palette.PaletteQuantizationTest
+[INFO] Running org.apache.commons.imaging.palette.DitheringTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.commons.imaging.palette.DitheringTest
 [INFO] Running org.apache.commons.imaging.ImageDumpTest
-[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.commons.imaging.ImageDumpTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.commons.imaging.ImageDumpTest
 [INFO] 
 [INFO] Results:
 [INFO] 
@@ -418,6 +418,6 @@ INFO: AffectedTestClasses: 113
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 45.878 s
-[INFO] Finished at: 2023-09-29T18:39:21Z
+[INFO] Total time: 44.393 s
+[INFO] Finished at: 2023-10-01T10:04:59Z
 [INFO] ------------------------------------------------------------------------

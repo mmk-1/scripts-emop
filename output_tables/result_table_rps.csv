@@ -1,4 +1,7 @@
 Project,Commit,Type,ChangedClasses,ImpactedClasses,AffectedSpecs,Total time
-commons-imaging,f2aed4ca,rps,0,603,,73,02:17 min
-commons-imaging,1602ac13,rps,3,214,,67,02:05 min
-commons-imaging,5e5483f1,rps,5,283,,68,02:07 min
+commons-imaging,f2aed4ca,rps,0,603,,73,02:12 min
+commons-imaging,1602ac13,rps,3,214,,67,02:01 min
+commons-imaging,5e5483f1,rps,5,283,,68,02:09 min
+commons-codec,53658793,rps,0,193,,69,02:12 min
+commons-codec,e42dfe1f,rps,1,3,,18,52.566 s
+commons-codec,3535c17e,rps,3,7,,21,49.847 s

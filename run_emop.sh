@@ -39,8 +39,8 @@ REPOS_DIR=$ROOT_DIR/repos/
 RESULTS_DIR=$ROOT_DIR/results/
 # for commit in $commit1 $commit2 $commit3 $commit4 $commit5
 # Read the CSV file line by line
-# while IFS=',' read -r repo commit1 commit2 commit3 commit4 commit5
-while IFS=',' read -r repo commit1 commit2 commit3
+while IFS=',' read -r repo commit1 commit2 commit3 commit4 commit5
+# while IFS=',' read -r repo commit1 commit2 commit3
 do
     # Clone the project
     # cd $REPOS_DIR
@@ -53,13 +53,13 @@ do
     # The logic is to copy the .starts directory to the parent directory
     # and then copy it back to the current directory after running the plugin
     # for each commit to find changes between commits
-    # for granularity in "hrps" "mrps" "rps"
-    for granularity in "rps"
+    for granularity in "hrps" "mrps" "rps"
+    # for granularity in "rps"
     do
         rm -rf $REPOS_DIR/.starts/
         mkdir $REPOS_DIR/.starts/
         # Checkout and run for each commit
-        for commit in $commit1 $commit2 $commit3
+        for commit in $commit1 $commit2 $commit3 $commit4 $commit5
         do
             mkdir -p $RESULTS_DIR/$project/$commit/
             git checkout $commit -f
