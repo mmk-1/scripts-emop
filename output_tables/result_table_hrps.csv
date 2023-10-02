@@ -5,3 +5,6 @@ la4j,dd1b917,hrps,351,7,29,0,17,0,0,29,240,0,27,39.935 s
 commons-codec,53658793,hrps,2108,0,2108,0,0,191,0,70,0,191,36,04:48 min
 commons-codec,e42dfe1f,hrps,4,0,4,0,1,0,0,1,191,0,0,29.939 s
 commons-codec,3535c17e,hrps,3,2,1,0,3,0,0,3,191,0,0,30.758 s
+commons-fileupload,3ee89c5,hrps,624,0,624,0,0,74,0,15,0,74,57,27.568 s
+commons-fileupload,5c1c9d1,hrps,50,2,0,3,2,0,3,11,71,28,55,25.223 s
+commons-fileupload,f0c1150,hrps,51,6,0,0,5,0,0,7,71,0,44,24.431 s
