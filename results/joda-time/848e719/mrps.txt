@@ -85,17 +85,92 @@ Writing ZoneInfoMap
 [INFO] 
 [INFO] --- emop:1.0-SNAPSHOT:monitor-methods (default-cli) @ joda-time ---
 [INFO] [eMOP] Invoking the ImpactedMethods Mojo...
-INFO: ChangedMethods: 11
-INFO: NewMethods: 9
-INFO: ImpactedMethods: 5270
-INFO: NewClasses: 0
-INFO: OldClasses: 531
-INFO: ChangedClasses: 17
-INFO: AffectedTestClasses: 127
-[INFO] [eMOP Timer] Execute ImpactedMethods Mojo takes 1819 ms
+INFO: ChangedMethods: 0
+INFO: NewMethods: 10345
+INFO: ImpactedMethods: 10345
+INFO: NewClasses: 531
+INFO: OldClasses: 0
+INFO: ChangedClasses: 0
+INFO: AffectedTestClasses: 151
+[INFO] [eMOP Timer] Execute ImpactedMethods Mojo takes 1756 ms
 [INFO] [eMOP] Invoking the AffectedSpecsMethods Mojo...
-[INFO] [eMOP Timer] Compile-time weaving takes 4125 ms
+[INFO] [eMOP Timer] Compile-time weaving takes 16859 ms
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/chrono/StrictChronology.java at line 33
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/chrono/IslamicChronology.java at line 65
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/chrono/IslamicChronology$LeapYearPatternType.java at line 530
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/test/java/org/joda/time/convert/TestReadablePartialConverter$MockTOD.java at line 124
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/field/SkipUndoDateTimeField.java at line 34
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/test/java/org/joda/time/TestPeriod_Basics$MockPeriod.java at line 221
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/Weeks.java at line 42
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/test/java/org/joda/time/chrono/gj/TestJulianChronology.java at line 28
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/test/java/org/joda/time/TestBasePartial$MockPartial.java at line 106
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/Instant.java at line 56
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/test/java/org/joda/time/TestDuration_Basics$MockMutableDuration.java at line 850
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/test/java/org/joda/time/field/TestBaseDateTimeField$MockCountingDurationField.java at line 580
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/test/java/org/joda/time/field/TestBaseDateTimeField$MockPartial.java at line 625
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/chrono/GregorianChronology.java at line 44
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/chrono/ZonedChronology.java at line 41
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/chrono/ZonedChronology$ZonedDurationField.java at line 298
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/chrono/BaseChronology.java at line 43
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/chrono/ISOChronology$Stub.java at line 214
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/chrono/ISOChronology.java at line 60
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/chrono/ISOChronology.java at line 60
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/chrono/ISOChronology.java at line 60
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/chrono/ISOChronology.java at line 60
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/chrono/ISOChronology.java at line 60
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/chrono/ISOChronology.java at line 60
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/chrono/ISOChronology.java at line 60
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/chrono/ISOChronology.java at line 60
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/chrono/ISOChronology.java at line 60
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/chrono/ISOChronology.java at line 60
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/chrono/ISOChronology.java at line 60
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/chrono/ISOChronology.java at line 48
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/field/PreciseDurationField.java at line 29
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/chrono/BasicGJChronology.java at line 34
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/Years.java at line 42
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/chrono/LimitChronology$LimitException.java at line 353
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/chrono/LimitChronology$LimitDurationField.java at line 397
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/chrono/LimitChronology.java at line 49
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/YearMonth.java at line 68
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/YearMonth$Property.java at line 842
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/tz/FixedDateTimeZone.java at line 28
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/base/BaseDuration.java at line 45
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/base/BaseInterval.java at line 48
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/field/DelegatedDurationField.java at line 34
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/MonthDay.java at line 71
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/MonthDay$Property.java at line 831
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/test/java/org/joda/time/chrono/gj/TestGJChronology.java at line 47
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/test/java/org/joda/time/convert/MockUnknownCalendar.java at line 26
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/test/java/org/joda/time/convert/MockUnknownTimeZone.java at line 27
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/Partial$Property.java at line 852
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/Partial.java at line 68
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/MutableInterval.java at line 52
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/DateMidnight.java at line 78
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/DateMidnight$Property.java at line 1220
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/Interval.java at line 52
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/test/java/org/joda/time/MockZone.java at line 18
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/chrono/JulianChronology.java at line 49
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/test/java/org/joda/time/TestDateTime_Basics$MockEqualsChronology.java at line 323
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/chrono/CopticChronology.java at line 50
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/DurationFieldType.java at line 39
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/DurationFieldType$StandardDurationFieldType.java at line 247
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/test/java/org/joda/time/field/TestPreciseDateTimeField$MockImpreciseDurationField.java at line 650
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/test/java/org/joda/time/field/TestPreciseDateTimeField$MockZeroDurationField.java at line 611
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/test/java/org/joda/time/field/TestPreciseDateTimeField$MockCountingDurationField.java at line 563
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/UTCDateTimeZone.java at line 24
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/TimeOfDay$Property.java at line 1022
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/TimeOfDay.java at line 66
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/DateTimeFieldType.java at line 41
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/DateTimeFieldType$StandardDateTimeFieldType.java at line 435
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/DateTimeZone$Stub.java at line 1246
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/DateTimeZone.java at line 115
 [WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/Period.java at line 57
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/chrono/AssembledChronology.java at line 35
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/Months.java at line 42
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/test/java/org/joda/time/TestDateTimeZone$MockDateTimeZone.java at line 865
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/test/java/org/joda/time/TestBaseSingleFieldPeriod$Single.java at line 301
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/field/UnsupportedDurationField.java at line 32
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/test/java/org/joda/time/convert/MockBadChronology.java at line 27
 [WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java at line 2327
 [WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java at line 2327
 [WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java at line 2331
@@ -198,8 +273,6 @@ INFO: AffectedTestClasses: 127
 [WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java at line 2407
 [WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java at line 1
 [WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java at line 1
-[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/PeriodType.java at line 51
-[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/chrono/BasicChronology.java at line 51
 [WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java at line 97
 [WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java at line 97
 [WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java at line 97
@@ -274,22 +347,194 @@ INFO: AffectedTestClasses: 127
 [WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java at line 100
 [WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java at line 76
 [WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime$Property.java at line 1378
-[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/test/java/org/joda/time/TestDateTimeZone$MockDateTimeZone.java at line 865
-[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDateTime.java at line 80
-[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDateTime$Property.java at line 2168
-[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/DateTimeZone$Stub.java at line 1246
-[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/DateTimeZone.java at line 115
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/chrono/BuddhistChronology.java at line 54
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/field/AbstractReadableInstantFieldProperty.java at line 46
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/chrono/BasicFixedMonthChronology.java at line 35
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/chrono/GJChronology$LinkedDurationField.java at line 1175
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/chrono/GJChronology.java at line 73
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/field/SkipDateTimeField.java at line 35
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/DateTimeComparator.java at line 48
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/IllegalFieldValueException.java at line 24
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/test/java/org/joda/time/field/TestPreciseDurationDateTimeField$MockCountingDurationField.java at line 576
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/test/java/org/joda/time/field/TestPreciseDurationDateTimeField$MockZeroDurationField.java at line 622
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/test/java/org/joda/time/field/TestPreciseDurationDateTimeField$MockImpreciseDurationField.java at line 661
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/Seconds.java at line 42
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/chrono/LenientChronology.java at line 33
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/base/BaseSingleFieldPeriod.java at line 46
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/field/MillisDurationField.java at line 32
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/test/java/org/joda/time/chrono/gj/TestGregorianChronology.java at line 26
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/test/java/org/joda/time/TestMutablePeriod_Basics$MockMutablePeriod.java at line 155
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/field/UnsupportedDateTimeField.java at line 34
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/field/DecoratedDurationField.java at line 38
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/IllegalInstantException.java at line 41
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/field/LenientDateTimeField.java at line 32
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/DateTime.java at line 73
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/DateTime$Property.java at line 2082
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/Minutes.java at line 42
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/test/java/org/joda/time/TestMutableDateTime_Basics$MockEqualsChronology.java at line 266
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/base/BasePeriod.java at line 50
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/base/BasePartial.java at line 43
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/JodaTimePermission.java at line 46
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/field/ScaledDurationField.java at line 32
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/test/java/org/joda/time/MockNullZoneChronology.java at line 26
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/Duration.java at line 40
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/field/BaseDurationField.java at line 38
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/base/BaseDateTime.java at line 43
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 98
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 98
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 98
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 98
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 98
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 98
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 98
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 98
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 98
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 98
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 98
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 98
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 98
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 98
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 98
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 98
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 98
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 98
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 99
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 99
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 99
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 99
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 99
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 99
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 99
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 99
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 99
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 99
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 99
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 99
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 99
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 99
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 99
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 99
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 99
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 99
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 100
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 100
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 100
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 100
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 100
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 100
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 100
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 100
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 100
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 100
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 100
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 100
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 100
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 100
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 100
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 100
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 100
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 100
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 101
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 101
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 101
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 101
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 101
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 101
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 101
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 101
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 101
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 101
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 101
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 101
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 101
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 101
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 101
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 101
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 101
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 101
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 102
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 102
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 102
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 102
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 102
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 102
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 102
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 102
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 102
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 102
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 102
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 102
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 102
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 102
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 102
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 102
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 102
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 102
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 103
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 103
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 103
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 103
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 103
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 103
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 103
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 103
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 103
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 103
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 103
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 103
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 103
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 103
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 103
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 103
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 103
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 103
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 105
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 105
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 105
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 105
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 105
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 105
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 105
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 105
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 105
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 105
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 105
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 105
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 105
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 105
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 105
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 105
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 105
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 105
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate.java at line 82
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDate$Property.java at line 1898
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/Hours.java at line 42
 [WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/tz/DateTimeZoneBuilder$PrecalculatedZone.java at line 1402
 [WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/tz/DateTimeZoneBuilder$DSTZone.java at line 1216
-[INFO] [eMOP] Number of Impacted methods: 20
-[INFO] [eMOP Timer] Compute affected specs takes 1530 ms
-[INFO] [eMOP Timer] Write affected specs to disk takes 43 ms
-[INFO] [eMOP] Number of changed classes: 17
-[INFO] [eMOP] Number of new classes: 0
-[INFO] [eMOP] Number of messages to process: 3689
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/tz/CachedDateTimeZone.java at line 30
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/PeriodType.java at line 51
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/field/StrictDateTimeField.java at line 31
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/chrono/BasicChronology.java at line 51
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/chrono/EthiopicChronology.java at line 50
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/field/DelegatedDateTimeField.java at line 36
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/Days.java at line 42
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/MutablePeriod.java at line 56
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/YearMonthDay$Property.java at line 937
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/YearMonthDay.java at line 65
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDateTime.java at line 80
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDateTime$Property.java at line 2168
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/field/ImpreciseDateTimeField$LinkedDurationField.java at line 158
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/MutableDateTime.java at line 71
+[WARNING] Cannot find method for /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/MutableDateTime$Property.java at line 1279
+[INFO] [eMOP] Number of Impacted methods: 10345
+[INFO] [eMOP Timer] Compute affected specs takes 3540 ms
+[INFO] [eMOP Timer] Write affected specs to disk takes 56 ms
+[INFO] [eMOP] Number of changed classes: 0
+[INFO] [eMOP] Number of new classes: 531
+[INFO] [eMOP] Number of messages to process: 8943
 [INFO] [eMOP] Invoking the Monitor Mojo...
-[INFO] AffectedSpecs: 61
-[INFO] [eMOP Timer] Generating aop-ajc.xml and replace it takes 66 ms
+[INFO] AffectedSpecs: 69
+[INFO] [eMOP Timer] Generating aop-ajc.xml and replace it takes 87 ms
 [INFO] 
 [INFO] --- surefire:2.20:test (default-test) @ joda-time ---
 [INFO] 
@@ -351,6 +596,12 @@ Specification Closeable_MeaninglessClose has been violated on line org.joda.time
 close() has no effect.
 Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:717). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
 StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
+Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:717). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
+StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
+Specification Closeable_MeaninglessClose has been violated on line org.joda.time.tz.TestCompiler.createDataFile(TestCompiler.java:194). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Closeable_MeaninglessClose.html
+close() has no effect.
+Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:717). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
+StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
 Specification Closeable_MeaninglessClose has been violated on line org.joda.time.tz.TestCompiler.createDataFile(TestCompiler.java:194). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Closeable_MeaninglessClose.html
 close() has no effect.
 Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:717). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
@@ -395,13 +646,7 @@ Specification StringTokenizer_HasMoreElements has been violated on line org.joda
 StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
 Writing zoneinfo files
 Writing ZoneInfoMap
-Specification Closeable_MeaninglessClose has been violated on line org.joda.time.tz.TestCompiler.createDataFile(TestCompiler.java:194). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Closeable_MeaninglessClose.html
-close() has no effect.
-Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:717). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
-StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
-Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:717). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
-StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
-[INFO] Tests run: 4239, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 20.199 s - in org.joda.time.TestAllPackages
+[INFO] Tests run: 4239, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 22.552 s - in org.joda.time.TestAllPackages
 [INFO] 
 [INFO] Results:
 [INFO] 
@@ -416,6 +661,6 @@ StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before ca
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  43.530 s
-[INFO] Finished at: 2023-10-02T16:56:12Z
+[INFO] Total time:  01:01 min
+[INFO] Finished at: 2023-10-02T18:49:17Z
 [INFO] ------------------------------------------------------------------------

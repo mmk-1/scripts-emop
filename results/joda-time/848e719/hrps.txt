@@ -95,9 +95,9 @@ INFO: ChangedClassesWithChangedHeaders: 0
 INFO: ChangedClassesWithoutChangedHeaders: 17
 INFO: AffectedTestClasses: 127
 INFO: ImpactedClasses: 0
-[INFO] [eMOP Timer] Execute ImpactedMethods Mojo takes 1995 ms
+[INFO] [eMOP Timer] Execute ImpactedMethods Mojo takes 2426 ms
 [INFO] [eMOP] Invoking the AffectedSpecsHybrid Mojo...
-[INFO] [eMOP Timer] Compile-time weaving takes 4159 ms
+[INFO] [eMOP Timer] Compile-time weaving takes 5002 ms
 [WARNING] Spec at line 57 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/Period.java is not within a method
 [WARNING] Spec at line 2327 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
 [WARNING] Spec at line 2327 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
@@ -203,6 +203,7 @@ INFO: ImpactedClasses: 0
 [WARNING] Spec at line 1 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
 [WARNING] Spec at line 51 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/PeriodType.java is not within a method
 [WARNING] Spec at line 51 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/chrono/BasicChronology.java is not within a method
+[WARNING] Spec at line 1378 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime$Property.java is not within a method
 [WARNING] Spec at line 97 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
 [WARNING] Spec at line 97 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
 [WARNING] Spec at line 97 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
@@ -276,22 +277,21 @@ INFO: ImpactedClasses: 0
 [WARNING] Spec at line 100 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
 [WARNING] Spec at line 100 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
 [WARNING] Spec at line 76 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
-[WARNING] Spec at line 1378 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime$Property.java is not within a method
 [WARNING] Spec at line 865 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/test/java/org/joda/time/TestDateTimeZone$MockDateTimeZone.java is not within a method
 [WARNING] Spec at line 80 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDateTime.java is not within a method
 [WARNING] Spec at line 2168 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDateTime$Property.java is not within a method
-[WARNING] Spec at line 115 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/DateTimeZone.java is not within a method
 [WARNING] Spec at line 1246 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/DateTimeZone$Stub.java is not within a method
-[WARNING] Spec at line 1216 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/tz/DateTimeZoneBuilder$DSTZone.java is not within a method
+[WARNING] Spec at line 115 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/DateTimeZone.java is not within a method
 [WARNING] Spec at line 1402 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/tz/DateTimeZoneBuilder$PrecalculatedZone.java is not within a method
+[WARNING] Spec at line 1216 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/tz/DateTimeZoneBuilder$DSTZone.java is not within a method
 [INFO] [eMOP] Number of Impacted methods: 5270
 [INFO] [eMOP] Number of Impacted classes: 0
-[INFO] [eMOP Timer] Compute affected specs takes 1504 ms
-[INFO] [eMOP Timer] Write affected specs to disk takes 57 ms
+[INFO] [eMOP Timer] Compute affected specs takes 1705 ms
+[INFO] [eMOP Timer] Write affected specs to disk takes 68 ms
 [INFO] [eMOP] Number of messages to process: 3689
 [INFO] [eMOP] Invoking the Hybrid Monitor Mojo...
 [INFO] AffectedSpecs: 61
-[INFO] [eMOP Timer] Generating aop-ajc.xml and replace it takes 69 ms
+[INFO] [eMOP Timer] Generating aop-ajc.xml and replace it takes 78 ms
 [INFO] 
 [INFO] --- surefire:2.20:test (default-test) @ joda-time ---
 [INFO] 
@@ -353,12 +353,6 @@ Specification Closeable_MeaninglessClose has been violated on line org.joda.time
 close() has no effect.
 Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:717). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
 StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
-Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:717). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
-StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
-Specification Closeable_MeaninglessClose has been violated on line org.joda.time.tz.TestCompiler.createDataFile(TestCompiler.java:194). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Closeable_MeaninglessClose.html
-close() has no effect.
-Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:717). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
-StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
 Specification Closeable_MeaninglessClose has been violated on line org.joda.time.tz.TestCompiler.createDataFile(TestCompiler.java:194). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Closeable_MeaninglessClose.html
 close() has no effect.
 Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:717). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
@@ -403,7 +397,13 @@ Specification StringTokenizer_HasMoreElements has been violated on line org.joda
 StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
 Writing zoneinfo files
 Writing ZoneInfoMap
-[INFO] Tests run: 4239, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 20.833 s - in org.joda.time.TestAllPackages
+Specification Closeable_MeaninglessClose has been violated on line org.joda.time.tz.TestCompiler.createDataFile(TestCompiler.java:194). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Closeable_MeaninglessClose.html
+close() has no effect.
+Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:717). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
+StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
+Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:717). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
+StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
+[INFO] Tests run: 4239, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 20.749 s - in org.joda.time.TestAllPackages
 [INFO] 
 [INFO] Results:
 [INFO] 
@@ -418,6 +418,6 @@ Writing ZoneInfoMap
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  44.673 s
-[INFO] Finished at: 2023-10-02T16:53:52Z
+[INFO] Total time:  47.756 s
+[INFO] Finished at: 2023-10-02T18:40:43Z
 [INFO] ------------------------------------------------------------------------

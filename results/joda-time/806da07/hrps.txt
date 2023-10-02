@@ -25,7 +25,7 @@
 [INFO] 
 [INFO] --- compiler:3.11.0:compile (default-compile) @ joda-time ---
 [WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in javac.
-[INFO] Changes detected - recompiling the module! :source
+[INFO] Changes detected - recompiling the module! :input tree
 [INFO] Compiling 166 source files with javac [forked debug:lines,source optimize target 1.5] to target/classes
 [WARNING] [options] bootstrap class path not set in conjunction with -source 1.5
 [WARNING] [options] source value 1.5 is obsolete and will be removed in a future release
@@ -105,18 +105,18 @@ INFO: ChangedClassesWithChangedHeaders: 0
 INFO: ChangedClassesWithoutChangedHeaders: 7
 INFO: AffectedTestClasses: 9
 INFO: ImpactedClasses: 0
-[INFO] [eMOP Timer] Execute ImpactedMethods Mojo takes 2052 ms
+[INFO] [eMOP Timer] Execute ImpactedMethods Mojo takes 2139 ms
 [INFO] [eMOP] Invoking the AffectedSpecsHybrid Mojo...
-[INFO] [eMOP Timer] Compile-time weaving takes 3609 ms
+[INFO] [eMOP Timer] Compile-time weaving takes 3933 ms
 [WARNING] Spec at line 866 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/test/java/org/joda/time/TestDateTimeZone$MockDateTimeZone.java is not within a method
 [INFO] [eMOP] Number of Impacted methods: 17
 [INFO] [eMOP] Number of Impacted classes: 0
-[INFO] [eMOP Timer] Compute affected specs takes 873 ms
-[INFO] [eMOP Timer] Write affected specs to disk takes 61 ms
+[INFO] [eMOP Timer] Compute affected specs takes 936 ms
+[INFO] [eMOP Timer] Write affected specs to disk takes 77 ms
 [INFO] [eMOP] Number of messages to process: 1487
 [INFO] [eMOP] Invoking the Hybrid Monitor Mojo...
 [INFO] AffectedSpecs: 38
-[INFO] [eMOP Timer] Generating aop-ajc.xml and replace it takes 66 ms
+[INFO] [eMOP Timer] Generating aop-ajc.xml and replace it takes 80 ms
 [INFO] 
 [INFO] --- surefire:2.20:test (default-test) @ joda-time ---
 [INFO] 
@@ -142,7 +142,7 @@ Specification Iterator_HasNext has been violated on line org.joda.time.tz.TestUT
 Iterator.hasNext() was not called before calling next().
 Writing zoneinfo files
 Writing ZoneInfoMap
-[INFO] Tests run: 4232, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.519 s - in org.joda.time.TestAllPackages
+[INFO] Tests run: 4232, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.471 s - in org.joda.time.TestAllPackages
 [INFO] 
 [INFO] Results:
 [INFO] 
@@ -157,6 +157,6 @@ Writing ZoneInfoMap
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  35.547 s
-[INFO] Finished at: 2023-10-02T16:54:30Z
+[INFO] Total time:  38.993 s
+[INFO] Finished at: 2023-10-02T18:41:27Z
 [INFO] ------------------------------------------------------------------------

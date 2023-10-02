@@ -91,17 +91,17 @@ INFO: STARTS:Nodes: 542
 INFO: STARTS:Edges: 4941
 INFO: ChangedClasses: 0
 INFO: ImpactedClasses: 532
-[INFO] [eMOP Timer] Execute ImpactedClasses Mojo takes 779 ms
+[INFO] [eMOP Timer] Execute ImpactedClasses Mojo takes 835 ms
 [INFO] [eMOP] Total number of classes: 532
 [INFO] [eMOP] Invoking the AffectedSpecs Mojo...
-[INFO] [eMOP Timer] Compile-time weaving takes 15942 ms
-[INFO] [eMOP Timer] Compute affected specs takes 11 ms
-[INFO] [eMOP Timer] Write affected specs to disk takes 47 ms
+[INFO] [eMOP Timer] Compile-time weaving takes 16842 ms
+[INFO] [eMOP Timer] Compute affected specs takes 12 ms
+[INFO] [eMOP Timer] Write affected specs to disk takes 45 ms
 [INFO] [eMOP] Number of impacted classes: 532
 [INFO] [eMOP] Number of messages to process: 8943
 [INFO] [eMOP] Invoking the Monitor Mojo...
 [INFO] AffectedSpecs: 74
-[INFO] [eMOP Timer] Generating aop-ajc.xml and replace it takes 85 ms
+[INFO] [eMOP Timer] Generating aop-ajc.xml and replace it takes 70 ms
 [INFO] 
 [INFO] --- surefire:2.20:test (default-test) @ joda-time ---
 [INFO] 
@@ -163,10 +163,6 @@ Specification Closeable_MeaninglessClose has been violated on line org.joda.time
 close() has no effect.
 Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:713). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
 StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
-Specification Closeable_MeaninglessClose has been violated on line org.joda.time.tz.TestCompiler.createDataFile(TestCompiler.java:192). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Closeable_MeaninglessClose.html
-close() has no effect.
-Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:713). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
-StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
 Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:713). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
 StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
 Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:713). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
@@ -211,9 +207,13 @@ Specification Closeable_MeaninglessClose has been violated on line org.joda.time
 close() has no effect.
 Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:713). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
 StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
+Specification Closeable_MeaninglessClose has been violated on line org.joda.time.tz.TestCompiler.createDataFile(TestCompiler.java:192). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Closeable_MeaninglessClose.html
+close() has no effect.
 Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:713). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
 StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
-[INFO] Tests run: 4238, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 22.414 s - in org.joda.time.TestAllPackages
+Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:713). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
+StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
+[INFO] Tests run: 4238, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 23.342 s - in org.joda.time.TestAllPackages
 [INFO] 
 [INFO] Results:
 [INFO] 
@@ -228,6 +228,6 @@ StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before ca
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  50.672 s
-[INFO] Finished at: 2023-10-02T16:57:46Z
+[INFO] Total time:  53.480 s
+[INFO] Finished at: 2023-10-02T18:44:25Z
 [INFO] ------------------------------------------------------------------------

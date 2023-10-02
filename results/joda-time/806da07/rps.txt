@@ -25,7 +25,7 @@
 [INFO] 
 [INFO] --- compiler:3.11.0:compile (default-compile) @ joda-time ---
 [WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in javac.
-[INFO] Changes detected - recompiling the module! :source
+[INFO] Changes detected - recompiling the module! :input tree
 [INFO] Compiling 166 source files with javac [forked debug:lines,source optimize target 1.5] to target/classes
 [WARNING] [options] bootstrap class path not set in conjunction with -source 1.5
 [WARNING] [options] source value 1.5 is obsolete and will be removed in a future release
@@ -99,17 +99,17 @@ INFO: STARTS:Nodes: 542
 INFO: STARTS:Edges: 4941
 INFO: ChangedClasses: 7
 INFO: ImpactedClasses: 31
-[INFO] [eMOP Timer] Execute ImpactedClasses Mojo takes 1161 ms
+[INFO] [eMOP Timer] Execute ImpactedClasses Mojo takes 1078 ms
 [INFO] [eMOP] Total number of classes: 532
 [INFO] [eMOP] Invoking the AffectedSpecs Mojo...
-[INFO] [eMOP Timer] Compile-time weaving takes 4186 ms
-[INFO] [eMOP Timer] Compute affected specs takes 44 ms
-[INFO] [eMOP Timer] Write affected specs to disk takes 43 ms
+[INFO] [eMOP Timer] Compile-time weaving takes 4215 ms
+[INFO] [eMOP Timer] Compute affected specs takes 39 ms
+[INFO] [eMOP Timer] Write affected specs to disk takes 58 ms
 [INFO] [eMOP] Number of impacted classes: 31
 [INFO] [eMOP] Number of messages to process: 1487
 [INFO] [eMOP] Invoking the Monitor Mojo...
 [INFO] AffectedSpecs: 62
-[INFO] [eMOP Timer] Generating aop-ajc.xml and replace it takes 84 ms
+[INFO] [eMOP Timer] Generating aop-ajc.xml and replace it takes 70 ms
 [INFO] 
 [INFO] --- surefire:2.20:test (default-test) @ joda-time ---
 [INFO] 
@@ -181,13 +181,13 @@ Specification Closeable_MeaninglessClose has been violated on line org.joda.time
 close() has no effect.
 Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:727). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
 StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
-Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:727). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
-StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
 Specification Closeable_MeaninglessClose has been violated on line org.joda.time.tz.TestCompiler.createDataFile(TestCompiler.java:194). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Closeable_MeaninglessClose.html
 close() has no effect.
 Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:727). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
 StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
-[INFO] Tests run: 4232, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 21.691 s - in org.joda.time.TestAllPackages
+Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:727). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
+StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
+[INFO] Tests run: 4232, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 21.718 s - in org.joda.time.TestAllPackages
 [INFO] 
 [INFO] Results:
 [INFO] 
@@ -202,6 +202,6 @@ StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before ca
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  41.227 s
-[INFO] Finished at: 2023-10-02T16:59:18Z
+[INFO] Total time:  42.824 s
+[INFO] Finished at: 2023-10-02T18:46:02Z
 [INFO] ------------------------------------------------------------------------
