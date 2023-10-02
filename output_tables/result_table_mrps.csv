@@ -1,10 +1,7 @@
 Project,Commit,Type,ImpactedMethods,ChangedMethods,NewMethods,ChangedClasses,NewClasses,AffectedTestClasses,OldClasses,AffectedSpecs,Total time
-compile-testing,6bfedd6,mrps,960,0,960,0,112,15,0,34,33.483 s
-compile-testing,9516ade,mrps,0,0,0,0,0,0,112,0,4.387 s
-compile-testing,7573767,mrps,0,0,0,0,0,0,112,0,4.693 s
-la4j,c24d0df,mrps,1781,0,1781,0,240,29,0,16,25.971 s
-la4j,be84547,mrps,517,25,0,11,0,26,240,17,23.929 s
-la4j,dd1b917,mrps,351,7,29,17,0,29,240,27,29.058 s
-joda-time,27edfff,mrps,10336,0,10336,0,531,151,0,69,51.670 s
-joda-time,848e719,mrps,5270,11,9,17,0,127,531,61,43.530 s
-joda-time,806da07,mrps,17,7,3,7,0,9,531,38,36.810 s
+la4j,c24d0df,mrps,1781,0,1781,0,240,29,0,35,38.560 s
+la4j,be84547,mrps,517,25,0,11,0,26,240,17,35.114 s
+la4j,dd1b917,mrps,351,7,29,17,0,29,240,27,37.956 s
+commons-codec,53658793,mrps,2108,0,2108,0,191,70,0,30,04:00 min
+commons-codec,e42dfe1f,mrps,4,0,4,1,0,1,191,0,28.493 s
+commons-codec,3535c17e,mrps,3,2,1,3,0,3,191,0,31.073 s
