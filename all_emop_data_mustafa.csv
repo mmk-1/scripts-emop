@@ -1,0 +1,7 @@
+Project,Commit,Type,ChangedClasses,ImpactedClasses,AffectedSpecs,Total time,Project,Commit,Type,ImpactedMethods,ChangedMethods,NewMethods,ChangedClassesWithChangedHeaders,ChangedClassesWithoutChangedHeaders,NewClasses,DeletedClasses,AffectedTestClasses,OldClasses,ImpactedClasses,AffectedSpecs,Total time,Project,Commit,Type,ImpactedMethods,ChangedMethods,NewMethods,ChangedClasses,NewClasses,AffectedTestClasses,OldClasses,AffectedSpecs,Total time
+la4j,c24d0df,rps,0,241,38,38.706 s,la4j,c24d0df,hrps,1781,0,1781,0,0,240,0,29,0,240,38,44.618 s,la4j,c24d0df,mrps,1781,0,1781,0,240,29,0,35,38.560 s
+la4j,be84547,rps,45,227,38,37.456 s,la4j,be84547,hrps,517,25,0,0,45,0,0,26,240,0,17,36.415 s,la4j,be84547,mrps,517,25,0,11,0,26,240,17,35.114 s
+la4j,dd1b917,rps,17,216,38,36.115 s,la4j,dd1b917,hrps,351,7,29,0,17,0,0,29,240,0,27,39.935 s,la4j,dd1b917,mrps,351,7,29,17,0,29,240,27,37.956 s
+commons-codec,53658793,rps,0,193,36,04:43 min,commons-codec,53658793,hrps,2108,0,2108,0,0,191,0,70,0,191,36,04:48 min,commons-codec,53658793,mrps,2108,0,2108,0,191,70,0,30,04:00 min
+commons-codec,e42dfe1f,rps,1,3,3,38.866 s,commons-codec,e42dfe1f,hrps,4,0,4,0,1,0,0,1,191,0,0,29.939 s,commons-codec,e42dfe1f,mrps,4,0,4,1,0,1,191,0,28.493 s
+commons-codec,3535c17e,rps,3,7,4,39.829 s,commons-codec,3535c17e,hrps,3,2,1,0,3,0,0,3,191,0,0,30.758 s,commons-codec,3535c17e,mrps,3,2,1,3,0,3,191,0,31.073 s
