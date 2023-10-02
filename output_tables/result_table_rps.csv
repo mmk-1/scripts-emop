@@ -1,0 +1,10 @@
+Project,Commit,Type,ChangedClasses,ImpactedClasses,AffectedSpecs,Total time
+compile-testing,6bfedd6,rps,0,117,46,37.696 s
+compile-testing,9516ade,rps,0,0,0,5.111 s
+compile-testing,7573767,rps,0,0,0,5.206 s
+la4j,c24d0df,rps,0,241,38,26.601 s
+la4j,be84547,rps,45,227,38,24.532 s
+la4j,dd1b917,rps,17,216,38,24.469 s
+joda-time,27edfff,rps,0,532,74,50.672 s
+joda-time,848e719,rps,17,518,74,43.367 s
+joda-time,806da07,rps,7,31,62,41.227 s

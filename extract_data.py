@@ -16,11 +16,11 @@ output_path = f"{root_path}/output_tables/result_table_{granularity}.csv"
 # Define the patterns to match
 info_pattern = "INFO: (.+: \d+)"
 affected_specs_pattern = r"\[INFO\] AffectedSpecs: (\d+)"
-time_pattern = r"\[INFO\] Total time: ([\d.:]+\s*\w+)"
+time_pattern = r"\[INFO\] Total time:\s+([\d.:]+\s\w+)"
 
 # Define headers for different granularities
 headers = {
-    "hrps": ["Project", "Commit", "Type", "ImpactedMethods", "ChangedMethods", "NewMethods", "ChangedClasses", "NewClasses", "DeletedClasses", "AffectedTestClasses", "ChangedClassesWithChangedHeaders", "ChangedClassesWithoutChangedHeaders","OldClasses", "ImpactedClasses", "AffectedSpecs", "Total time"],
+    "hrps": ["Project", "Commit", "Type", "ImpactedMethods", "ChangedMethods", "NewMethods", "ChangedClassesWithChangedHeaders", "ChangedClassesWithoutChangedHeaders", "NewClasses", "DeletedClasses", "AffectedTestClasses", "OldClasses", "ImpactedClasses", "AffectedSpecs", "Total time"],
     "mrps": ["Project", "Commit", "Type", "ImpactedMethods", "ChangedMethods", "NewMethods", "ChangedClasses", "NewClasses", "AffectedTestClasses", "OldClasses", "AffectedSpecs", "Total time"],
     "rps": ["Project", "Commit", "Type", "ChangedClasses", "ImpactedClasses", "AffectedSpecs", "Total time"],
 }
@@ -40,17 +40,18 @@ with open(log_path, 'r') as file:
     # Search for INFO lines
     info_matches = re.findall(info_pattern, data)
     info_dict = {match.split(": ")[0]: match.split(": ")[1] for match in info_matches}
-    
+    # info_dict["Total"]
     # Prepare row data in the order defined by the header
     row_data = [project, commit, granularity]
-    for header in csv_header[3:-1]:  # Exclude Project, Commit, Type, and Total time
+    for header in csv_header[3:-2]:  # Exclude Project, Commit, Type, AffectedSpecs & Total time
         row_data.append(info_dict.get(header, ""))
-    print("Row data:", row_data)
     
     # Search for AffectedSpecs line
     affected_specs_match = re.search(affected_specs_pattern, data)
     if affected_specs_match:
         row_data.append(affected_specs_match.group(1))
+    else:
+        row_data.append("0")
     
     # Search for TOTAL TIME line
     time_match = re.search(time_pattern, data)

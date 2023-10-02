@@ -1,0 +1,10 @@
+Project,Commit,Type,ImpactedMethods,ChangedMethods,NewMethods,ChangedClassesWithChangedHeaders,ChangedClassesWithoutChangedHeaders,NewClasses,DeletedClasses,AffectedTestClasses,OldClasses,ImpactedClasses,AffectedSpecs,Total time
+compile-testing,6bfedd6,hrps,960,0,960,0,0,112,0,15,0,112,46,35.508 s
+compile-testing,9516ade,hrps,0,0,0,0,0,0,0,0,112,0,0,4.442 s
+compile-testing,7573767,hrps,0,0,0,0,0,0,0,0,112,0,0,4.474 s
+la4j,c24d0df,hrps,1781,0,1781,0,0,240,0,29,0,240,38,27.201 s
+la4j,be84547,hrps,517,25,0,0,45,0,0,26,240,0,17,23.856 s
+la4j,dd1b917,hrps,351,7,29,0,17,0,0,29,240,0,27,24.840 s
+joda-time,27edfff,hrps,10336,0,10336,0,0,531,0,151,0,531,74,57.554 s
+joda-time,848e719,hrps,5270,11,9,0,17,0,0,127,531,0,61,44.673 s
+joda-time,806da07,hrps,17,7,3,0,7,0,0,9,531,0,38,35.547 s
