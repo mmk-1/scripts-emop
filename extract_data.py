@@ -45,6 +45,7 @@ with open(log_path, 'r') as file:
     row_data = [project, commit, granularity]
     for header in csv_header[3:-1]:  # Exclude Project, Commit, Type, and Total time
         row_data.append(info_dict.get(header, ""))
+    print("Row data:", row_data)
     
     # Search for AffectedSpecs line
     affected_specs_match = re.search(affected_specs_pattern, data)
@@ -59,6 +60,7 @@ with open(log_path, 'r') as file:
     # Write results to CSV file
     with open(output_path, mode='a', newline='') as result_table:
         writer = csv.writer(result_table)
+        # Write the header if it is the first time otherwise just append the row
         if not os.path.isfile(output_path) or os.stat(output_path).st_size == 0:
             writer.writerow(csv_header)
         writer.writerow(row_data)

@@ -1,0 +1,423 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for joda-time:joda-time:jar:2.11.2
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ line 569, column 9
+[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ line 763, column 9
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ------------------------< joda-time:joda-time >-------------------------
+[INFO] Building Joda-Time 2.11.2
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] Parameter 'verbose' is unknown for plugin 'exec-maven-plugin:3.1.0:java (compile-tzdb)'
+[WARNING] Parameter 'verbose' is unknown for plugin 'exec-maven-plugin:3.1.0:java (compile-tzdb)'
+[INFO] 
+[INFO] >>> emop:1.0-SNAPSHOT:hrps (default-cli) > [hybrid]test @ joda-time >>>
+[INFO] 
+[INFO] --- enforcer:3.1.0:enforce (enforce-maven) @ joda-time ---
+[INFO] 
+[INFO] --- resources:3.3.0:resources (default-resources) @ joda-time ---
+[INFO] Copying 2 resources to META-INF
+[INFO] Copying 18 resources
+[INFO] 
+[INFO] --- compiler:3.10.1:compile (default-compile) @ joda-time ---
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in {@code javac}.
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 166 source files to /workspaces/rv-project/scripts-emop/repos/joda-time/target/classes
+[INFO] 
+[INFO] --- exec:3.1.0:java (compile-tzdb) @ joda-time ---
+Writing zoneinfo files
+Fixed negative save values for rule 'Morocco'
+Fixed negative save values for rule 'Morocco'
+Fixed negative save values for rule 'Morocco'
+Fixed negative save values for rule 'Morocco'
+Fixed negative save values for rule 'Morocco'
+Fixed negative save values for rule 'Namibia'
+Fixed negative save values for rule 'Eire'
+Writing ZoneInfoMap
+[INFO] 
+[INFO] --- resources:3.3.0:testResources (default-testResources) @ joda-time ---
+[INFO] Copying 35 resources
+[INFO] 
+[INFO] --- compiler:3.10.1:testCompile (default-testCompile) @ joda-time ---
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in {@code javac}.
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 159 source files to /workspaces/rv-project/scripts-emop/repos/joda-time/target/test-classes
+[INFO] 
+[INFO] >>> emop:1.0-SNAPSHOT:monitor-hybrid (default-cli) > test-compile @ joda-time >>>
+[INFO] 
+[INFO] --- enforcer:3.1.0:enforce (enforce-maven) @ joda-time ---
+[INFO] 
+[INFO] --- resources:3.3.0:resources (default-resources) @ joda-time ---
+[INFO] Copying 2 resources to META-INF
+[INFO] Copying 18 resources
+[INFO] 
+[INFO] --- compiler:3.10.1:compile (default-compile) @ joda-time ---
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in {@code javac}.
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 166 source files to /workspaces/rv-project/scripts-emop/repos/joda-time/target/classes
+[INFO] 
+[INFO] --- exec:3.1.0:java (compile-tzdb) @ joda-time ---
+Writing zoneinfo files
+Fixed negative save values for rule 'Morocco'
+Fixed negative save values for rule 'Morocco'
+Fixed negative save values for rule 'Morocco'
+Fixed negative save values for rule 'Morocco'
+Fixed negative save values for rule 'Morocco'
+Fixed negative save values for rule 'Namibia'
+Fixed negative save values for rule 'Eire'
+Writing ZoneInfoMap
+[INFO] 
+[INFO] --- resources:3.3.0:testResources (default-testResources) @ joda-time ---
+[INFO] Copying 35 resources
+[INFO] 
+[INFO] --- compiler:3.10.1:testCompile (default-testCompile) @ joda-time ---
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in {@code javac}.
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 159 source files to /workspaces/rv-project/scripts-emop/repos/joda-time/target/test-classes
+[INFO] 
+[INFO] <<< emop:1.0-SNAPSHOT:monitor-hybrid (default-cli) < test-compile @ joda-time <<<
+[INFO] 
+[INFO] 
+[INFO] --- emop:1.0-SNAPSHOT:monitor-hybrid (default-cli) @ joda-time ---
+[INFO] [eMOP] Invoking the ImpactedMethods Mojo...
+INFO: ChangedMethods: 11
+INFO: NewMethods: 9
+INFO: ImpactedMethods: 5270
+INFO: NewClasses: 0
+INFO: OldClasses: 531
+INFO: DeletedClasses: 0
+INFO: ChangedClassesWithChangedHeaders: 0
+INFO: ChangedClassesWithoutChangedHeaders: 17
+INFO: AffectedTestClasses: 127
+INFO: ImpactedClasses: 0
+[INFO] [eMOP Timer] Execute ImpactedMethods Mojo takes 1995 ms
+[INFO] [eMOP] Invoking the AffectedSpecsHybrid Mojo...
+[INFO] [eMOP Timer] Compile-time weaving takes 4159 ms
+[WARNING] Spec at line 57 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/Period.java is not within a method
+[WARNING] Spec at line 2327 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2327 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2331 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2331 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2331 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2331 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2331 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2331 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2331 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2331 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2331 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2331 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2331 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2331 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2331 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2331 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2331 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2331 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2331 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2331 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2331 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2331 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2331 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2331 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2331 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2340 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2340 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2340 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2341 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2341 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2341 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2341 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2341 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2341 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2341 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2341 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2341 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2341 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2341 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2341 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2343 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2343 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2343 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2343 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2343 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2343 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2343 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2343 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2343 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2343 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2343 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2343 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2343 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2343 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2343 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2343 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2343 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2343 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2343 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2343 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2345 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2345 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2345 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2345 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2345 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2345 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2345 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2345 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2345 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2345 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2345 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2345 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2345 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2345 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2345 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2345 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2345 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2331 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2331 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2331 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2331 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2331 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2331 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2331 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2331 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2331 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2331 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2314 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2360 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2386 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2386 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2386 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2388 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2388 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2388 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2398 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2397 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2407 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2407 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 2407 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 1 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 1 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId.java is not within a method
+[WARNING] Spec at line 51 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/PeriodType.java is not within a method
+[WARNING] Spec at line 51 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/chrono/BasicChronology.java is not within a method
+[WARNING] Spec at line 97 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 97 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 97 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 97 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 97 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 97 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 97 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 97 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 97 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 97 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 97 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 97 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 97 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 97 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 97 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 97 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 97 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 97 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 98 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 98 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 98 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 98 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 98 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 98 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 98 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 98 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 98 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 98 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 98 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 98 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 98 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 98 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 98 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 98 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 98 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 98 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 99 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 99 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 99 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 99 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 99 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 99 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 99 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 99 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 99 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 99 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 99 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 99 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 99 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 99 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 99 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 99 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 99 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 99 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 100 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 100 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 100 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 100 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 100 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 100 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 100 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 100 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 100 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 100 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 100 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 100 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 100 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 100 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 100 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 100 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 100 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 100 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 76 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime.java is not within a method
+[WARNING] Spec at line 1378 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalTime$Property.java is not within a method
+[WARNING] Spec at line 865 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/test/java/org/joda/time/TestDateTimeZone$MockDateTimeZone.java is not within a method
+[WARNING] Spec at line 80 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDateTime.java is not within a method
+[WARNING] Spec at line 2168 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/LocalDateTime$Property.java is not within a method
+[WARNING] Spec at line 115 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/DateTimeZone.java is not within a method
+[WARNING] Spec at line 1246 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/DateTimeZone$Stub.java is not within a method
+[WARNING] Spec at line 1216 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/tz/DateTimeZoneBuilder$DSTZone.java is not within a method
+[WARNING] Spec at line 1402 in /workspaces/rv-project/scripts-emop/repos/joda-time/src/main/java/org/joda/time/tz/DateTimeZoneBuilder$PrecalculatedZone.java is not within a method
+[INFO] [eMOP] Number of Impacted methods: 5270
+[INFO] [eMOP] Number of Impacted classes: 0
+[INFO] [eMOP Timer] Compute affected specs takes 1504 ms
+[INFO] [eMOP Timer] Write affected specs to disk takes 57 ms
+[INFO] [eMOP] Number of messages to process: 3689
+[INFO] [eMOP] Invoking the Hybrid Monitor Mojo...
+[INFO] AffectedSpecs: 61
+[INFO] [eMOP Timer] Generating aop-ajc.xml and replace it takes 69 ms
+[INFO] 
+[INFO] --- surefire:2.20:test (default-test) @ joda-time ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.joda.time.TestAllPackages
+Specification Comparable_CompareToNull has been violated on line org.joda.time.TestInstant_Basics.testCompareTo(TestInstant_Basics.java:243). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Comparable_CompareToNull.html
+null cannot be compared to any object
+Specification Comparable_CompareToNull has been violated on line org.joda.time.TestDateTime_Basics.testCompareTo(TestDateTime_Basics.java:368). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Comparable_CompareToNull.html
+null cannot be compared to any object
+Specification Comparable_CompareToNull has been violated on line org.joda.time.TestMutableDateTime_Basics.testCompareTo(TestMutableDateTime_Basics.java:311). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Comparable_CompareToNull.html
+null cannot be compared to any object
+Specification Comparable_CompareToNull has been violated on line org.joda.time.TestDateMidnight_Basics.testCompareTo(TestDateMidnight_Basics.java:325). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Comparable_CompareToNull.html
+null cannot be compared to any object
+Specification Comparable_CompareToNull has been violated on line org.joda.time.TestDuration_Basics.testCompareTo(TestDuration_Basics.java:173). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Comparable_CompareToNull.html
+null cannot be compared to any object
+Specification Comparable_CompareToNull has been violated on line org.joda.time.TestLocalDateTime_Basics.testCompareTo(TestLocalDateTime_Basics.java:363). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Comparable_CompareToNull.html
+null cannot be compared to any object
+Specification Comparable_CompareToNull has been violated on line org.joda.time.TestLocalDate_Basics.testCompareTo(TestLocalDate_Basics.java:357). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Comparable_CompareToNull.html
+null cannot be compared to any object
+Specification Comparable_CompareToNull has been violated on line org.joda.time.TestLocalTime_Basics.testCompareTo(TestLocalTime_Basics.java:353). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Comparable_CompareToNull.html
+null cannot be compared to any object
+Specification Comparable_CompareToNull has been violated on line org.joda.time.TestBaseSingleFieldPeriod.testCompareTo(TestBaseSingleFieldPeriod.java:260). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Comparable_CompareToNull.html
+null cannot be compared to any object
+Specification Comparable_CompareToNull has been violated on line org.joda.time.TestTimeOfDay_Basics.testCompareTo(TestTimeOfDay_Basics.java:271). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Comparable_CompareToNull.html
+null cannot be compared to any object
+Specification Comparable_CompareToNull has been violated on line org.joda.time.TestYearMonthDay_Basics.testCompareTo(TestYearMonthDay_Basics.java:250). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Comparable_CompareToNull.html
+null cannot be compared to any object
+Specification Comparable_CompareToNull has been violated on line org.joda.time.TestYearMonth_Basics.testCompareTo(TestYearMonth_Basics.java:248). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Comparable_CompareToNull.html
+null cannot be compared to any object
+Specification Comparable_CompareToNull has been violated on line org.joda.time.TestMonthDay_Basics.testCompareTo(TestMonthDay_Basics.java:250). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Comparable_CompareToNull.html
+null cannot be compared to any object
+Specification Comparable_CompareToNull has been violated on line org.joda.time.TestPartial_Basics.testCompareTo(TestPartial_Basics.java:231). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Comparable_CompareToNull.html
+null cannot be compared to any object
+
+TestBuddhistChronology.testCalendar
+
+TestCopticChronology.testCalendar
+
+TestEthiopicChronology.testCalendar
+
+TestIslamicChronology.testCalendar
+
+Testing Gregorian chronology over 1000 iterations
+100% complete (i=1000)
+
+Testing Julian chronology over 1000 iterations
+100% complete (i=1000)
+Specification Comparable_CompareToNull has been violated on line org.joda.time.field.TestMillisDurationField.test_compareTo(TestMillisDurationField.java:195). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Comparable_CompareToNull.html
+null cannot be compared to any object
+Specification Comparable_CompareToNull has been violated on line org.joda.time.field.TestPreciseDurationField.test_compareTo(TestPreciseDurationField.java:254). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Comparable_CompareToNull.html
+null cannot be compared to any object
+Specification Comparable_CompareToNull has been violated on line org.joda.time.field.TestScaledDurationField.test_compareTo(TestScaledDurationField.java:271). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Comparable_CompareToNull.html
+null cannot be compared to any object
+Specification Iterator_HasNext has been violated on line org.joda.time.tz.TestUTCProvider.testGetAvailableIDs(TestUTCProvider.java:63). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Closeable_MeaninglessClose has been violated on line org.joda.time.tz.TestCompiler.createDataFile(TestCompiler.java:194). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Closeable_MeaninglessClose.html
+close() has no effect.
+Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:717). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
+StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
+Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:717). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
+StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
+Specification Closeable_MeaninglessClose has been violated on line org.joda.time.tz.TestCompiler.createDataFile(TestCompiler.java:194). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Closeable_MeaninglessClose.html
+close() has no effect.
+Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:717). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
+StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
+Specification Closeable_MeaninglessClose has been violated on line org.joda.time.tz.TestCompiler.createDataFile(TestCompiler.java:194). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Closeable_MeaninglessClose.html
+close() has no effect.
+Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:717). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
+StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
+Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:717). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
+StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
+Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:717). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
+StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
+Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:717). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
+StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
+Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:717). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
+StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
+Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:717). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
+StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
+Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:717). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
+StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
+Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:717). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
+StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
+Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:717). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
+StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
+Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:717). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
+StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
+Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:717). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
+StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
+Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:717). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
+StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
+Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:717). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
+StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
+Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:717). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
+StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
+Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:717). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
+StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
+Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:717). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
+StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
+Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Zone.<init>(ZoneInfoCompiler.java:856). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
+StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
+Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Zone.<init>(ZoneInfoCompiler.java:862). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
+StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
+Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Zone.<init>(ZoneInfoCompiler.java:862). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
+StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
+Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Zone.<init>(ZoneInfoCompiler.java:862). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
+StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
+Writing zoneinfo files
+Writing ZoneInfoMap
+[INFO] Tests run: 4239, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 20.833 s - in org.joda.time.TestAllPackages
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 4239, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] <<< emop:1.0-SNAPSHOT:hrps (default-cli) < [hybrid]test @ joda-time <<<
+[INFO] 
+[INFO] 
+[INFO] --- emop:1.0-SNAPSHOT:hrps (default-cli) @ joda-time ---
+[INFO] [eMOP] Invoking the RPS Hybrid Mojo...
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  44.673 s
+[INFO] Finished at: 2023-10-02T16:53:52Z
+[INFO] ------------------------------------------------------------------------

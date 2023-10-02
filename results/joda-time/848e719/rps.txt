@@ -1,0 +1,231 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for joda-time:joda-time:jar:2.11.2
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ line 569, column 9
+[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ line 763, column 9
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ------------------------< joda-time:joda-time >-------------------------
+[INFO] Building Joda-Time 2.11.2
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] Parameter 'verbose' is unknown for plugin 'exec-maven-plugin:3.1.0:java (compile-tzdb)'
+[WARNING] Parameter 'verbose' is unknown for plugin 'exec-maven-plugin:3.1.0:java (compile-tzdb)'
+[INFO] 
+[INFO] >>> emop:1.0-SNAPSHOT:rps (default-cli) > [rps]test @ joda-time >>>
+[INFO] 
+[INFO] --- enforcer:3.1.0:enforce (enforce-maven) @ joda-time ---
+[INFO] 
+[INFO] --- resources:3.3.0:resources (default-resources) @ joda-time ---
+[INFO] Copying 2 resources to META-INF
+[INFO] Copying 18 resources
+[INFO] 
+[INFO] --- compiler:3.10.1:compile (default-compile) @ joda-time ---
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in {@code javac}.
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 166 source files to /workspaces/rv-project/scripts-emop/repos/joda-time/target/classes
+[INFO] 
+[INFO] --- exec:3.1.0:java (compile-tzdb) @ joda-time ---
+Writing zoneinfo files
+Fixed negative save values for rule 'Morocco'
+Fixed negative save values for rule 'Morocco'
+Fixed negative save values for rule 'Morocco'
+Fixed negative save values for rule 'Morocco'
+Fixed negative save values for rule 'Morocco'
+Fixed negative save values for rule 'Namibia'
+Fixed negative save values for rule 'Eire'
+Writing ZoneInfoMap
+[INFO] 
+[INFO] --- resources:3.3.0:testResources (default-testResources) @ joda-time ---
+[INFO] Copying 35 resources
+[INFO] 
+[INFO] --- compiler:3.10.1:testCompile (default-testCompile) @ joda-time ---
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in {@code javac}.
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 159 source files to /workspaces/rv-project/scripts-emop/repos/joda-time/target/test-classes
+[INFO] 
+[INFO] >>> emop:1.0-SNAPSHOT:monitor (default-cli) > test-compile @ joda-time >>>
+[INFO] 
+[INFO] --- enforcer:3.1.0:enforce (enforce-maven) @ joda-time ---
+[INFO] 
+[INFO] --- resources:3.3.0:resources (default-resources) @ joda-time ---
+[INFO] Copying 2 resources to META-INF
+[INFO] Copying 18 resources
+[INFO] 
+[INFO] --- compiler:3.10.1:compile (default-compile) @ joda-time ---
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in {@code javac}.
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 166 source files to /workspaces/rv-project/scripts-emop/repos/joda-time/target/classes
+[INFO] 
+[INFO] --- exec:3.1.0:java (compile-tzdb) @ joda-time ---
+Writing zoneinfo files
+Fixed negative save values for rule 'Morocco'
+Fixed negative save values for rule 'Morocco'
+Fixed negative save values for rule 'Morocco'
+Fixed negative save values for rule 'Morocco'
+Fixed negative save values for rule 'Morocco'
+Fixed negative save values for rule 'Namibia'
+Fixed negative save values for rule 'Eire'
+Writing ZoneInfoMap
+[INFO] 
+[INFO] --- resources:3.3.0:testResources (default-testResources) @ joda-time ---
+[INFO] Copying 35 resources
+[INFO] 
+[INFO] --- compiler:3.10.1:testCompile (default-testCompile) @ joda-time ---
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in {@code javac}.
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 159 source files to /workspaces/rv-project/scripts-emop/repos/joda-time/target/test-classes
+[INFO] 
+[INFO] <<< emop:1.0-SNAPSHOT:monitor (default-cli) < test-compile @ joda-time <<<
+[INFO] 
+[INFO] 
+[INFO] --- emop:1.0-SNAPSHOT:monitor (default-cli) @ joda-time ---
+[INFO] [eMOP] Invoking the ImpactedClasses Mojo...
+INFO: STARTS:Nodes: 542
+INFO: STARTS:Edges: 4941
+INFO: ChangedClasses: 17
+INFO: ImpactedClasses: 518
+[INFO] [eMOP Timer] Execute ImpactedClasses Mojo takes 806 ms
+[INFO] [eMOP] Total number of classes: 532
+[INFO] [eMOP] Invoking the AffectedSpecs Mojo...
+[INFO] [eMOP Timer] Compile-time weaving takes 4243 ms
+[INFO] [eMOP Timer] Compute affected specs takes 39 ms
+[INFO] [eMOP Timer] Write affected specs to disk takes 32 ms
+[INFO] [eMOP] Number of impacted classes: 518
+[INFO] [eMOP] Number of messages to process: 3689
+[INFO] [eMOP] Invoking the Monitor Mojo...
+[INFO] AffectedSpecs: 74
+[INFO] [eMOP Timer] Generating aop-ajc.xml and replace it takes 70 ms
+[INFO] 
+[INFO] --- surefire:2.20:test (default-test) @ joda-time ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.joda.time.TestAllPackages
+Specification Comparable_CompareToNull has been violated on line org.joda.time.TestInstant_Basics.testCompareTo(TestInstant_Basics.java:243). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Comparable_CompareToNull.html
+null cannot be compared to any object
+Specification Comparable_CompareToNull has been violated on line org.joda.time.TestDateTime_Basics.testCompareTo(TestDateTime_Basics.java:368). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Comparable_CompareToNull.html
+null cannot be compared to any object
+Specification Comparable_CompareToNull has been violated on line org.joda.time.TestMutableDateTime_Basics.testCompareTo(TestMutableDateTime_Basics.java:311). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Comparable_CompareToNull.html
+null cannot be compared to any object
+Specification Comparable_CompareToNull has been violated on line org.joda.time.TestDateMidnight_Basics.testCompareTo(TestDateMidnight_Basics.java:325). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Comparable_CompareToNull.html
+null cannot be compared to any object
+Specification Comparable_CompareToNull has been violated on line org.joda.time.TestDuration_Basics.testCompareTo(TestDuration_Basics.java:173). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Comparable_CompareToNull.html
+null cannot be compared to any object
+Specification Comparable_CompareToNull has been violated on line org.joda.time.TestLocalDateTime_Basics.testCompareTo(TestLocalDateTime_Basics.java:363). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Comparable_CompareToNull.html
+null cannot be compared to any object
+Specification Comparable_CompareToNull has been violated on line org.joda.time.TestLocalDate_Basics.testCompareTo(TestLocalDate_Basics.java:357). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Comparable_CompareToNull.html
+null cannot be compared to any object
+Specification Comparable_CompareToNull has been violated on line org.joda.time.TestLocalTime_Basics.testCompareTo(TestLocalTime_Basics.java:353). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Comparable_CompareToNull.html
+null cannot be compared to any object
+Specification Comparable_CompareToNull has been violated on line org.joda.time.TestBaseSingleFieldPeriod.testCompareTo(TestBaseSingleFieldPeriod.java:260). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Comparable_CompareToNull.html
+null cannot be compared to any object
+Specification Comparable_CompareToNull has been violated on line org.joda.time.TestTimeOfDay_Basics.testCompareTo(TestTimeOfDay_Basics.java:271). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Comparable_CompareToNull.html
+null cannot be compared to any object
+Specification Comparable_CompareToNull has been violated on line org.joda.time.TestYearMonthDay_Basics.testCompareTo(TestYearMonthDay_Basics.java:250). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Comparable_CompareToNull.html
+null cannot be compared to any object
+Specification Comparable_CompareToNull has been violated on line org.joda.time.TestYearMonth_Basics.testCompareTo(TestYearMonth_Basics.java:248). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Comparable_CompareToNull.html
+null cannot be compared to any object
+Specification Comparable_CompareToNull has been violated on line org.joda.time.TestMonthDay_Basics.testCompareTo(TestMonthDay_Basics.java:250). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Comparable_CompareToNull.html
+null cannot be compared to any object
+Specification Comparable_CompareToNull has been violated on line org.joda.time.TestPartial_Basics.testCompareTo(TestPartial_Basics.java:231). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Comparable_CompareToNull.html
+null cannot be compared to any object
+
+TestBuddhistChronology.testCalendar
+
+TestCopticChronology.testCalendar
+
+TestEthiopicChronology.testCalendar
+
+TestIslamicChronology.testCalendar
+
+Testing Gregorian chronology over 1000 iterations
+100% complete (i=1000)
+
+Testing Julian chronology over 1000 iterations
+100% complete (i=1000)
+Specification Comparable_CompareToNull has been violated on line org.joda.time.field.TestMillisDurationField.test_compareTo(TestMillisDurationField.java:195). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Comparable_CompareToNull.html
+null cannot be compared to any object
+Specification Comparable_CompareToNull has been violated on line org.joda.time.field.TestPreciseDurationField.test_compareTo(TestPreciseDurationField.java:254). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Comparable_CompareToNull.html
+null cannot be compared to any object
+Specification Comparable_CompareToNull has been violated on line org.joda.time.field.TestScaledDurationField.test_compareTo(TestScaledDurationField.java:271). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Comparable_CompareToNull.html
+null cannot be compared to any object
+Specification Iterator_HasNext has been violated on line org.joda.time.tz.TestUTCProvider.testGetAvailableIDs(TestUTCProvider.java:63). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Closeable_MeaninglessClose has been violated on line org.joda.time.tz.TestCompiler.createDataFile(TestCompiler.java:194). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Closeable_MeaninglessClose.html
+close() has no effect.
+Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:717). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
+StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
+Specification Closeable_MeaninglessClose has been violated on line org.joda.time.tz.TestCompiler.createDataFile(TestCompiler.java:194). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Closeable_MeaninglessClose.html
+close() has no effect.
+Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:717). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
+StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
+Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:717). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
+StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
+Specification Closeable_MeaninglessClose has been violated on line org.joda.time.tz.TestCompiler.createDataFile(TestCompiler.java:194). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Closeable_MeaninglessClose.html
+close() has no effect.
+Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:717). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
+StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
+Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:717). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
+StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
+Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:717). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
+StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
+Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:717). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
+StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
+Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:717). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
+StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
+Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:717). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
+StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
+Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:717). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
+StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
+Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:717). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
+StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
+Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:717). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
+StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
+Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:717). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
+StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
+Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:717). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
+StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
+Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:717). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
+StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
+Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:717). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
+StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
+Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:717). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
+StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
+Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:717). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
+StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
+Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Rule.<init>(ZoneInfoCompiler.java:717). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
+StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
+Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Zone.<init>(ZoneInfoCompiler.java:856). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
+StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
+Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Zone.<init>(ZoneInfoCompiler.java:862). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
+StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
+Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Zone.<init>(ZoneInfoCompiler.java:862). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
+StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
+Specification StringTokenizer_HasMoreElements has been violated on line org.joda.time.tz.ZoneInfoCompiler$Zone.<init>(ZoneInfoCompiler.java:862). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/StringTokenizer_HasMoreElements.html
+StringTokenizer.hasMoreTokens()/hasMoreElements() did not return false before calling nextToken()/nextElement().
+Writing zoneinfo files
+Writing ZoneInfoMap
+[INFO] Tests run: 4239, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 21.8 s - in org.joda.time.TestAllPackages
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 4239, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] <<< emop:1.0-SNAPSHOT:rps (default-cli) < [rps]test @ joda-time <<<
+[INFO] 
+[INFO] 
+[INFO] --- emop:1.0-SNAPSHOT:rps (default-cli) @ joda-time ---
+[INFO] [eMOP] Invoking the RPS Mojo...
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  43.367 s
+[INFO] Finished at: 2023-10-02T16:58:33Z
+[INFO] ------------------------------------------------------------------------

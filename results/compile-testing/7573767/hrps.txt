@@ -1,0 +1,90 @@
+[INFO] Scanning for projects...
+[WARNING] The project com.google.testing.compile:compile-testing:jar:HEAD-SNAPSHOT uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[INFO] 
+[INFO] -------------< com.google.testing.compile:compile-testing >-------------
+[INFO] Building Compile Testing HEAD-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> emop:1.0-SNAPSHOT:hrps (default-cli) > [hybrid]test @ compile-testing >>>
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ compile-testing ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ compile-testing ---
+[INFO] Copying 1 resource from  to target/classes/META-INF
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ compile-testing ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 24 source files with javac [debug deprecation target 1.8] to target/classes
+[WARNING] No processor claimed any of these annotations: com.google.errorprone.annotations.CheckReturnValue,com.google.auto.value.AutoValue,com.google.errorprone.annotations.FormatMethod,com.google.errorprone.annotations.CanIgnoreReturnValue,com.google.common.annotations.VisibleForTesting
+[WARNING] No processor claimed any of these annotations: javax.annotation.Generated
+[WARNING] /workspaces/rv-project/scripts-emop/repos/compile-testing/src/main/java/com/google/testing/compile/JavaSourcesSubject.java:[312,28] withClasspathFrom(java.lang.ClassLoader) in com.google.testing.compile.Compiler has been deprecated
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ compile-testing ---
+[INFO] Copying 4 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ compile-testing ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 21 source files with javac [debug deprecation target 1.8] to target/test-classes
+[WARNING] No processor claimed any of these annotations: org.junit.Rule,org.junit.runner.RunWith,org.junit.runners.Parameterized.Parameters,org.junit.Test,com.google.errorprone.annotations.CanIgnoreReturnValue,org.junit.Before
+[WARNING] /workspaces/rv-project/scripts-emop/repos/compile-testing/src/test/java/com/google/testing/compile/BreadcrumbsTest.java:[41,71] none() in org.junit.rules.ExpectedException has been deprecated
+[WARNING] /workspaces/rv-project/scripts-emop/repos/compile-testing/src/test/java/com/google/testing/compile/CompilerTest.java:[194,13] withClasspathFrom(java.lang.ClassLoader) in com.google.testing.compile.Compiler has been deprecated
+[WARNING] /workspaces/rv-project/scripts-emop/repos/compile-testing/src/test/java/com/google/testing/compile/CompilerTest.java:[210,13] withClasspathFrom(java.lang.ClassLoader) in com.google.testing.compile.Compiler has been deprecated
+[WARNING] /workspaces/rv-project/scripts-emop/repos/compile-testing/src/test/java/com/google/testing/compile/TreeContextTest.java:[37,71] none() in org.junit.rules.ExpectedException has been deprecated
+[INFO] 
+[INFO] >>> emop:1.0-SNAPSHOT:monitor-hybrid (default-cli) > test-compile @ compile-testing >>>
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ compile-testing ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ compile-testing ---
+[INFO] Copying 1 resource from  to target/classes/META-INF
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ compile-testing ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ compile-testing ---
+[INFO] Copying 4 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ compile-testing ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 21 source files with javac [debug deprecation target 1.8] to target/test-classes
+[WARNING] No processor claimed any of these annotations: org.junit.Rule,org.junit.runner.RunWith,org.junit.runners.Parameterized.Parameters,org.junit.Test,com.google.errorprone.annotations.CanIgnoreReturnValue,org.junit.Before
+[WARNING] /workspaces/rv-project/scripts-emop/repos/compile-testing/src/test/java/com/google/testing/compile/BreadcrumbsTest.java:[41,71] none() in org.junit.rules.ExpectedException has been deprecated
+[WARNING] /workspaces/rv-project/scripts-emop/repos/compile-testing/src/test/java/com/google/testing/compile/CompilerTest.java:[194,13] withClasspathFrom(java.lang.ClassLoader) in com.google.testing.compile.Compiler has been deprecated
+[WARNING] /workspaces/rv-project/scripts-emop/repos/compile-testing/src/test/java/com/google/testing/compile/CompilerTest.java:[210,13] withClasspathFrom(java.lang.ClassLoader) in com.google.testing.compile.Compiler has been deprecated
+[WARNING] /workspaces/rv-project/scripts-emop/repos/compile-testing/src/test/java/com/google/testing/compile/TreeContextTest.java:[37,71] none() in org.junit.rules.ExpectedException has been deprecated
+[INFO] 
+[INFO] <<< emop:1.0-SNAPSHOT:monitor-hybrid (default-cli) < test-compile @ compile-testing <<<
+[INFO] 
+[INFO] 
+[INFO] --- emop:1.0-SNAPSHOT:monitor-hybrid (default-cli) @ compile-testing ---
+[INFO] [eMOP] Invoking the ImpactedMethods Mojo...
+INFO: ChangedMethods: 0
+INFO: NewMethods: 0
+INFO: ImpactedMethods: 0
+INFO: NewClasses: 0
+INFO: OldClasses: 112
+INFO: DeletedClasses: 0
+INFO: ChangedClassesWithChangedHeaders: 0
+INFO: ChangedClassesWithoutChangedHeaders: 0
+INFO: AffectedTestClasses: 0
+INFO: ImpactedClasses: 0
+[INFO] [eMOP Timer] Execute ImpactedMethods Mojo takes 251 ms
+================================
+/home/mopuser/.m2/repository/edu/cornell/emop-core/1.0-SNAPSHOT/emop-core-1.0-SNAPSHOT.jar
+================================
+[INFO] No impacted classes mode detected Hybrid MonitorMojo
+[INFO] 
+[INFO] --- surefire:2.20:test (default-test) @ compile-testing ---
+[INFO] 
+[INFO] <<< emop:1.0-SNAPSHOT:hrps (default-cli) < [hybrid]test @ compile-testing <<<
+[INFO] 
+[INFO] 
+[INFO] --- emop:1.0-SNAPSHOT:hrps (default-cli) @ compile-testing ---
+[INFO] [eMOP] Invoking the RPS Hybrid Mojo...
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.474 s
+[INFO] Finished at: 2023-10-02T16:45:26Z
+[INFO] ------------------------------------------------------------------------
