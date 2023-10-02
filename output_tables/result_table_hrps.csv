@@ -1,7 +1,0 @@
-Project,Commit,Type,ImpactedMethods,ChangedMethods,NewMethods,ChangedClasses,NewClasses,AffectedTestClasses,OldClasses,AffectedSpecs,Total time
-commons-imaging,f2aed4ca,hrps,3089,0,3089,0,596,148,0,,17,01:28 min
-commons-imaging,1602ac13,hrps,250,4,0,3,1,49,596,,1,44.393 s
-commons-imaging,5e5483f1,hrps,162,4,0,5,1,38,597,,2,46.418 s
-commons-codec,53658793,hrps,2108,0,2108,0,191,70,0,,16,01:02 min
-commons-codec,e42dfe1f,hrps,4,0,4,1,0,1,191,,0,23.642 s
-commons-codec,3535c17e,hrps,7,2,5,3,0,3,191,,0,24.141 s

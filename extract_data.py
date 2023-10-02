@@ -20,7 +20,7 @@ time_pattern = r"\[INFO\] Total time: ([\d.:]+\s*\w+)"
 
 # Define headers for different granularities
 headers = {
-    "hrps": ["Project", "Commit", "Type", "ImpactedMethods", "ChangedMethods", "NewMethods", "ChangedClasses", "NewClasses", "AffectedTestClasses", "OldClasses", "AffectedSpecs", "Total time"],
+    "hrps": ["Project", "Commit", "Type", "ImpactedMethods", "ChangedMethods", "NewMethods", "ChangedClasses", "NewClasses", "DeletedClasses", "AffectedTestClasses", "ChangedClassesWithChangedHeaders", "ChangedClassesWithoutChangedHeaders","OldClasses", "ImpactedClasses", "AffectedSpecs", "Total time"],
     "mrps": ["Project", "Commit", "Type", "ImpactedMethods", "ChangedMethods", "NewMethods", "ChangedClasses", "NewClasses", "AffectedTestClasses", "OldClasses", "AffectedSpecs", "Total time"],
     "rps": ["Project", "Commit", "Type", "ChangedClasses", "ImpactedClasses", "AffectedSpecs", "Total time"],
 }
