@@ -1,0 +1,4 @@
+Project,Commit,Type,ChangedClasses,ImpactedClasses,AffectedSpecs,Total time
+commons-compress,2ed55677,rps,0,579,79,01:52 min
+commons-compress,d8ca982f,rps,13,279,76,01:40 min
+commons-compress,40b1d2fb,rps,20,291,76,01:39 min

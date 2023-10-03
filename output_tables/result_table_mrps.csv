@@ -1,8 +1,4 @@
-
-la4j,c24d0df,mrps,1781,0,1781,0,240,29,0,35,38.560 s
-la4j,be84547,mrps,517,25,0,11,0,26,240,17,35.114 s
-la4j,dd1b917,mrps,351,7,29,17,0,29,240,27,37.956 s
-commons-codec,53658793,mrps,2108,0,2108,0,191,70,0,30,04:00 min
-commons-codec,e42dfe1f,mrps,4,0,4,1,0,1,191,0,28.493 s
-commons-codec,3535c17e,mrps,3,2,1,3,0,3,191,0,31.073 s
-
+Project,Commit,Type,ImpactedMethods,ChangedMethods,NewMethods,ChangedClasses,NewClasses,AffectedTestClasses,OldClasses,AffectedSpecs,Total time
+commons-compress,2ed55677,mrps,4504,0,4504,0,569,140,0,76,01:52 min
+commons-compress,d8ca982f,mrps,1024,18,0,13,0,82,569,62,01:37 min
+commons-compress,40b1d2fb,mrps,1163,35,11,21,1,83,569,61,01:36 min
