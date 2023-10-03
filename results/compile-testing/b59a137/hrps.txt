@@ -5984,3 +5984,1002 @@ Iterator.hasNext() was not called before calling next().
 [INFO] Total time:  31.672 s
 [INFO] Finished at: 2023-10-02T18:30:08Z
 [INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[WARNING] The project com.google.testing.compile:compile-testing:jar:HEAD-SNAPSHOT uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[INFO] 
+[INFO] -------------< com.google.testing.compile:compile-testing >-------------
+[INFO] Building Compile Testing HEAD-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> emop:1.0-SNAPSHOT:hrps (default-cli) > [hybrid]test @ compile-testing >>>
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ compile-testing ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ compile-testing ---
+[INFO] skip non existing resourceDirectory /workspaces/rv-project/scripts-emop/repos/compile-testing/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ compile-testing ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 24 source files to /workspaces/rv-project/scripts-emop/repos/compile-testing/target/classes
+[WARNING] No processor claimed any of these annotations: javax.annotation.CheckReturnValue,com.google.auto.value.AutoValue,com.google.errorprone.annotations.CanIgnoreReturnValue,com.google.common.annotations.VisibleForTesting,javax.annotation.Nullable
+[WARNING] No processor claimed any of these annotations: javax.annotation.Generated
+[WARNING] /workspaces/rv-project/scripts-emop/repos/compile-testing/src/main/java/com/google/testing/compile/JavaFileObjectSubject.java:[40,50] found raw type: com.google.common.truth.Subject
+  missing type arguments for generic class com.google.common.truth.Subject<S,T>
+[WARNING] /workspaces/rv-project/scripts-emop/repos/compile-testing/src/main/java/com/google/testing/compile/JavaFileObjectSubject.java:[58,10] unchecked call to Subject(com.google.common.truth.FailureMetadata,T) as a member of the raw type com.google.common.truth.Subject
+[WARNING] /workspaces/rv-project/scripts-emop/repos/compile-testing/src/main/java/com/google/testing/compile/CompilationSubject.java:[60,47] found raw type: com.google.common.truth.Subject
+  missing type arguments for generic class com.google.common.truth.Subject<S,T>
+[WARNING] /workspaces/rv-project/scripts-emop/repos/compile-testing/src/main/java/com/google/testing/compile/CompilationSubject.java:[78,10] unchecked call to Subject(com.google.common.truth.FailureMetadata,T) as a member of the raw type com.google.common.truth.Subject
+[WARNING] /workspaces/rv-project/scripts-emop/repos/compile-testing/src/main/java/com/google/testing/compile/JavaSourcesSubject.java:[65,47] found raw type: com.google.common.truth.Subject
+  missing type arguments for generic class com.google.common.truth.Subject<S,T>
+[WARNING] /workspaces/rv-project/scripts-emop/repos/compile-testing/src/main/java/com/google/testing/compile/JavaSourcesSubject.java:[73,10] unchecked call to Subject(com.google.common.truth.FailureMetadata,T) as a member of the raw type com.google.common.truth.Subject
+[WARNING] /workspaces/rv-project/scripts-emop/repos/compile-testing/src/main/java/com/google/testing/compile/JavaSourcesSubject.java:[333,28] withClasspathFrom(java.lang.ClassLoader) in com.google.testing.compile.Compiler has been deprecated
+[WARNING] /workspaces/rv-project/scripts-emop/repos/compile-testing/src/main/java/com/google/testing/compile/JavaSourcesSubject.java:[595,57] found raw type: com.google.common.truth.Subject
+  missing type arguments for generic class com.google.common.truth.Subject<S,T>
+[WARNING] /workspaces/rv-project/scripts-emop/repos/compile-testing/src/main/java/com/google/testing/compile/JavaSourcesSubject.java:[600,12] unchecked call to Subject(com.google.common.truth.FailureMetadata,T) as a member of the raw type com.google.common.truth.Subject
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ compile-testing ---
+[INFO] Copying 4 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ compile-testing ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 20 source files to /workspaces/rv-project/scripts-emop/repos/compile-testing/target/test-classes
+[WARNING] No processor claimed any of these annotations: org.junit.Rule,org.junit.runner.RunWith,org.junit.runners.Parameterized.Parameters,org.junit.Test,com.google.errorprone.annotations.CanIgnoreReturnValue,org.junit.Before
+[WARNING] /workspaces/rv-project/scripts-emop/repos/compile-testing/src/test/java/com/google/testing/compile/CompilerTest.java:[179,13] withClasspathFrom(java.lang.ClassLoader) in com.google.testing.compile.Compiler has been deprecated
+[WARNING] /workspaces/rv-project/scripts-emop/repos/compile-testing/src/test/java/com/google/testing/compile/CompilerTest.java:[195,13] withClasspathFrom(java.lang.ClassLoader) in com.google.testing.compile.Compiler has been deprecated
+[INFO] 
+[INFO] >>> emop:1.0-SNAPSHOT:monitor-hybrid (default-cli) > test-compile @ compile-testing >>>
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ compile-testing ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ compile-testing ---
+[INFO] skip non existing resourceDirectory /workspaces/rv-project/scripts-emop/repos/compile-testing/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ compile-testing ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 24 source files to /workspaces/rv-project/scripts-emop/repos/compile-testing/target/classes
+[WARNING] No processor claimed any of these annotations: javax.annotation.CheckReturnValue,com.google.auto.value.AutoValue,com.google.errorprone.annotations.CanIgnoreReturnValue,com.google.common.annotations.VisibleForTesting,javax.annotation.Nullable
+[WARNING] No processor claimed any of these annotations: javax.annotation.Generated
+[WARNING] /workspaces/rv-project/scripts-emop/repos/compile-testing/src/main/java/com/google/testing/compile/JavaFileObjectSubject.java:[40,50] found raw type: com.google.common.truth.Subject
+  missing type arguments for generic class com.google.common.truth.Subject<S,T>
+[WARNING] /workspaces/rv-project/scripts-emop/repos/compile-testing/src/main/java/com/google/testing/compile/JavaFileObjectSubject.java:[58,10] unchecked call to Subject(com.google.common.truth.FailureMetadata,T) as a member of the raw type com.google.common.truth.Subject
+[WARNING] /workspaces/rv-project/scripts-emop/repos/compile-testing/src/main/java/com/google/testing/compile/CompilationSubject.java:[60,47] found raw type: com.google.common.truth.Subject
+  missing type arguments for generic class com.google.common.truth.Subject<S,T>
+[WARNING] /workspaces/rv-project/scripts-emop/repos/compile-testing/src/main/java/com/google/testing/compile/CompilationSubject.java:[78,10] unchecked call to Subject(com.google.common.truth.FailureMetadata,T) as a member of the raw type com.google.common.truth.Subject
+[WARNING] /workspaces/rv-project/scripts-emop/repos/compile-testing/src/main/java/com/google/testing/compile/JavaSourcesSubject.java:[65,47] found raw type: com.google.common.truth.Subject
+  missing type arguments for generic class com.google.common.truth.Subject<S,T>
+[WARNING] /workspaces/rv-project/scripts-emop/repos/compile-testing/src/main/java/com/google/testing/compile/JavaSourcesSubject.java:[73,10] unchecked call to Subject(com.google.common.truth.FailureMetadata,T) as a member of the raw type com.google.common.truth.Subject
+[WARNING] /workspaces/rv-project/scripts-emop/repos/compile-testing/src/main/java/com/google/testing/compile/JavaSourcesSubject.java:[333,28] withClasspathFrom(java.lang.ClassLoader) in com.google.testing.compile.Compiler has been deprecated
+[WARNING] /workspaces/rv-project/scripts-emop/repos/compile-testing/src/main/java/com/google/testing/compile/JavaSourcesSubject.java:[595,57] found raw type: com.google.common.truth.Subject
+  missing type arguments for generic class com.google.common.truth.Subject<S,T>
+[WARNING] /workspaces/rv-project/scripts-emop/repos/compile-testing/src/main/java/com/google/testing/compile/JavaSourcesSubject.java:[600,12] unchecked call to Subject(com.google.common.truth.FailureMetadata,T) as a member of the raw type com.google.common.truth.Subject
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ compile-testing ---
+[INFO] Copying 4 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ compile-testing ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 20 source files to /workspaces/rv-project/scripts-emop/repos/compile-testing/target/test-classes
+[WARNING] No processor claimed any of these annotations: org.junit.Rule,org.junit.runner.RunWith,org.junit.runners.Parameterized.Parameters,org.junit.Test,com.google.errorprone.annotations.CanIgnoreReturnValue,org.junit.Before
+[WARNING] /workspaces/rv-project/scripts-emop/repos/compile-testing/src/test/java/com/google/testing/compile/CompilerTest.java:[179,13] withClasspathFrom(java.lang.ClassLoader) in com.google.testing.compile.Compiler has been deprecated
+[WARNING] /workspaces/rv-project/scripts-emop/repos/compile-testing/src/test/java/com/google/testing/compile/CompilerTest.java:[195,13] withClasspathFrom(java.lang.ClassLoader) in com.google.testing.compile.Compiler has been deprecated
+[INFO] 
+[INFO] <<< emop:1.0-SNAPSHOT:monitor-hybrid (default-cli) < test-compile @ compile-testing <<<
+[INFO] 
+[INFO] 
+[INFO] --- emop:1.0-SNAPSHOT:monitor-hybrid (default-cli) @ compile-testing ---
+[INFO] [eMOP] Invoking the ImpactedMethods Mojo...
+INFO: ChangedMethods: 64
+INFO: NewMethods: 4
+INFO: ImpactedMethods: 262
+INFO: NewClasses: 1
+INFO: OldClasses: 109
+INFO: DeletedClasses: 0
+INFO: ChangedClassesWithChangedHeaders: 8
+INFO: ChangedClassesWithoutChangedHeaders: 16
+INFO: AffectedTestClasses: 14
+INFO: ImpactedClasses: 57
+[INFO] [eMOP Timer] Execute ImpactedMethods Mojo takes 419 ms
+[INFO] [eMOP] Invoking the AffectedSpecsHybrid Mojo...
+[INFO] [eMOP Timer] Compile-time weaving takes 5398 ms
+[WARNING] Spec at line 274 in /workspaces/rv-project/scripts-emop/repos/compile-testing/src/main/java/com/google/testing/compile/Compilation$Status.java is not within a method
+[WARNING] Spec at line 1 in /workspaces/rv-project/scripts-emop/repos/compile-testing/src/main/java/com/google/testing/compile/Compilation$Status.java is not within a method
+[WARNING] Spec at line 1 in /workspaces/rv-project/scripts-emop/repos/compile-testing/src/main/java/com/google/testing/compile/Compilation$Status.java is not within a method
+[WARNING] Spec at line 53 in /workspaces/rv-project/scripts-emop/repos/compile-testing/src/test/java/com/google/testing/compile/CompilationSubjectTest.java is not within a method
+[WARNING] Spec at line 53 in /workspaces/rv-project/scripts-emop/repos/compile-testing/src/test/java/com/google/testing/compile/CompilationSubjectTest.java is not within a method
+[WARNING] Spec at line 53 in /workspaces/rv-project/scripts-emop/repos/compile-testing/src/test/java/com/google/testing/compile/CompilationSubjectTest.java is not within a method
+[WARNING] Spec at line 53 in /workspaces/rv-project/scripts-emop/repos/compile-testing/src/test/java/com/google/testing/compile/CompilationSubjectTest.java is not within a method
+[WARNING] Spec at line 53 in /workspaces/rv-project/scripts-emop/repos/compile-testing/src/test/java/com/google/testing/compile/CompilationSubjectTest.java is not within a method
+[WARNING] Spec at line 68 in /workspaces/rv-project/scripts-emop/repos/compile-testing/src/test/java/com/google/testing/compile/CompilationSubjectTest.java is not within a method
+[WARNING] Spec at line 68 in /workspaces/rv-project/scripts-emop/repos/compile-testing/src/test/java/com/google/testing/compile/CompilationSubjectTest.java is not within a method
+[WARNING] Spec at line 68 in /workspaces/rv-project/scripts-emop/repos/compile-testing/src/test/java/com/google/testing/compile/CompilationSubjectTest.java is not within a method
+[WARNING] Spec at line 68 in /workspaces/rv-project/scripts-emop/repos/compile-testing/src/test/java/com/google/testing/compile/CompilationSubjectTest.java is not within a method
+[WARNING] Spec at line 68 in /workspaces/rv-project/scripts-emop/repos/compile-testing/src/test/java/com/google/testing/compile/CompilationSubjectTest.java is not within a method
+[INFO] [eMOP] Number of Impacted methods: 262
+[INFO] [eMOP] Number of Impacted classes: 57
+[INFO] [eMOP Timer] Compute affected specs takes 1099 ms
+[INFO] [eMOP Timer] Write affected specs to disk takes 43 ms
+[INFO] [eMOP] Number of messages to process: 586
+[INFO] [eMOP] Invoking the Hybrid Monitor Mojo...
+[INFO] AffectedSpecs: 32
+[INFO] [eMOP Timer] Generating aop-ajc.xml and replace it takes 104 ms
+[INFO] 
+[INFO] --- surefire:2.20:test (default-test) @ compile-testing ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.google.testing.compile.BreadcrumbsTest
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+[ERROR] Tests run: 6, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 8.633 s <<< FAILURE! - in com.google.testing.compile.BreadcrumbsTest
+[ERROR] describeTreePath(com.google.testing.compile.BreadcrumbsTest)  Time elapsed: 0.028 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/Breadcrumbs
+	at com.google.testing.compile.BreadcrumbsTest.describeTreePath(BreadcrumbsTest.java:47)
+Caused by: java.lang.ClassNotFoundException: com.google.testing.compile.Breadcrumbs
+	at com.google.testing.compile.BreadcrumbsTest.describeTreePath(BreadcrumbsTest.java:47)
+
+[INFO] Running com.google.testing.compile.CompilationRuleTest
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.google.testing.compile.CompilationRuleTest
+[ERROR] initializationError(com.google.testing.compile.CompilationRuleTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Lcom/google/testing/compile/CompilationRule;
+Caused by: java.lang.ClassNotFoundException: com.google.testing.compile.CompilationRule
+
+[INFO] Running com.google.testing.compile.CompilationSubjectTest
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.305 s <<< FAILURE! - in com.google.testing.compile.CompilationSubjectTest
+[ERROR] initializationError(com.google.testing.compile.CompilationSubjectTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/Compiler
+Caused by: java.lang.ClassNotFoundException: com.google.testing.compile.Compiler
+
+[INFO] Running com.google.testing.compile.CompilationTest
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! - in com.google.testing.compile.CompilationTest
+[ERROR] initializationError(com.google.testing.compile.CompilationTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/Compiler
+Caused by: java.lang.ClassNotFoundException: com.google.testing.compile.Compiler
+
+[INFO] Running com.google.testing.compile.CompilerTest
+[ERROR] Tests run: 9, Failures: 0, Errors: 9, Skipped: 0, Time elapsed: 0.013 s <<< FAILURE! - in com.google.testing.compile.CompilerTest
+[ERROR] classPath_empty_urlClassLoader(com.google.testing.compile.CompilerTest)  Time elapsed: 0.004 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaFileObjects$ResourceSourceJavaFileObject
+	at com.google.testing.compile.CompilerTest.<clinit>(CompilerTest.java:51)
+
+[ERROR] classPath_default(com.google.testing.compile.CompilerTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.google.testing.compile.CompilerTest
+
+[ERROR] options(com.google.testing.compile.CompilerTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.google.testing.compile.CompilerTest
+
+[ERROR] multipleProcesors_asIterable(com.google.testing.compile.CompilerTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.google.testing.compile.CompilerTest
+
+[ERROR] releaseFlag(com.google.testing.compile.CompilerTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.google.testing.compile.CompilerTest
+
+[ERROR] classPath_customFiles(com.google.testing.compile.CompilerTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.google.testing.compile.CompilerTest
+
+[ERROR] multipleProcesors(com.google.testing.compile.CompilerTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.google.testing.compile.CompilerTest
+
+[ERROR] classPath_customFiles_urlClassLoader(com.google.testing.compile.CompilerTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.google.testing.compile.CompilerTest
+
+[ERROR] classPath_empty(com.google.testing.compile.CompilerTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.google.testing.compile.CompilerTest
+
+[INFO] Running com.google.testing.compile.JarFileResourcesCompilationTest
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.486 s <<< FAILURE! - in com.google.testing.compile.JarFileResourcesCompilationTest
+[ERROR] compilesResourcesInJarFiles(com.google.testing.compile.JarFileResourcesCompilationTest)  Time elapsed: 0.482 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaSourceSubjectFactory
+	at com.google.testing.compile.JarFileResourcesCompilationTest.compilesResourcesInJarFiles(JarFileResourcesCompilationTest.java:61)
+Caused by: java.lang.ClassNotFoundException: com.google.testing.compile.JavaSourceSubjectFactory
+	at com.google.testing.compile.JarFileResourcesCompilationTest.compilesResourcesInJarFiles(JarFileResourcesCompilationTest.java:61)
+
+[INFO] Running com.google.testing.compile.JavaFileObjectSubjectTest
+[ERROR] Tests run: 10, Failures: 0, Errors: 10, Skipped: 0, Time elapsed: 0.033 s <<< FAILURE! - in com.google.testing.compile.JavaFileObjectSubjectTest
+[ERROR] hasContents(com.google.testing.compile.JavaFileObjectSubjectTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaFileObjectSubject
+	at com.google.testing.compile.JavaFileObjectSubjectTest.hasContents(JavaFileObjectSubjectTest.java:71)
+Caused by: java.lang.ClassNotFoundException: com.google.testing.compile.JavaFileObjectSubject
+	at com.google.testing.compile.JavaFileObjectSubjectTest.hasContents(JavaFileObjectSubjectTest.java:71)
+
+[ERROR] hasSourceEquivalentTo_failOnExtraInExpected(com.google.testing.compile.JavaFileObjectSubjectTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaFileObjectSubject
+	at com.google.testing.compile.JavaFileObjectSubjectTest.hasSourceEquivalentTo_failOnExtraInExpected(JavaFileObjectSubjectTest.java:131)
+
+[ERROR] hasSourceEquivalentTo_failOnExtraInActual(com.google.testing.compile.JavaFileObjectSubjectTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaFileObjectSubject
+	at com.google.testing.compile.JavaFileObjectSubjectTest.hasSourceEquivalentTo_failOnExtraInActual(JavaFileObjectSubjectTest.java:145)
+
+[ERROR] contentsAsString_fail(com.google.testing.compile.JavaFileObjectSubjectTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaFileObjectSubject
+	at com.google.testing.compile.JavaFileObjectSubjectTest.contentsAsString_fail(JavaFileObjectSubjectTest.java:94)
+
+[ERROR] hasSourceEquivalentTo_unresolvedReferences(com.google.testing.compile.JavaFileObjectSubjectTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaFileObjectSubject
+	at com.google.testing.compile.JavaFileObjectSubjectTest.hasSourceEquivalentTo_unresolvedReferences(JavaFileObjectSubjectTest.java:111)
+
+[ERROR] hasContents_failure(com.google.testing.compile.JavaFileObjectSubjectTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaFileObjectSubject
+	at com.google.testing.compile.JavaFileObjectSubjectTest.hasContents_failure(JavaFileObjectSubjectTest.java:78)
+
+[ERROR] containsElementsIn_completeMatch(com.google.testing.compile.JavaFileObjectSubjectTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaFileObjectSubject
+	at com.google.testing.compile.JavaFileObjectSubjectTest.containsElementsIn_completeMatch(JavaFileObjectSubjectTest.java:197)
+
+[ERROR] hasSourceEquivalentTo_failOnDifferences(com.google.testing.compile.JavaFileObjectSubjectTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaFileObjectSubject
+	at com.google.testing.compile.JavaFileObjectSubjectTest.hasSourceEquivalentTo_failOnDifferences(JavaFileObjectSubjectTest.java:118)
+
+[ERROR] contentsAsString(com.google.testing.compile.JavaFileObjectSubjectTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaFileObjectSubject
+	at com.google.testing.compile.JavaFileObjectSubjectTest.contentsAsString(JavaFileObjectSubjectTest.java:87)
+
+[ERROR] hasSourceEquivalentTo(com.google.testing.compile.JavaFileObjectSubjectTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaFileObjectSubject
+	at com.google.testing.compile.JavaFileObjectSubjectTest.hasSourceEquivalentTo(JavaFileObjectSubjectTest.java:106)
+
+[INFO] Running com.google.testing.compile.JavaFileObjectsTest
+[ERROR] Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.011 s <<< FAILURE! - in com.google.testing.compile.JavaFileObjectsTest
+[ERROR] forResource_inJarFile(com.google.testing.compile.JavaFileObjectsTest)  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaFileObjects$ResourceSourceJavaFileObject
+	at com.google.testing.compile.JavaFileObjectsTest.forResource_inJarFile(JavaFileObjectsTest.java:38)
+
+[INFO] Running com.google.testing.compile.JavaSourcesSubjectFactoryTest
+[ERROR] Tests run: 51, Failures: 0, Errors: 51, Skipped: 0, Time elapsed: 0.084 s <<< FAILURE! - in com.google.testing.compile.JavaSourcesSubjectFactoryTest
+[ERROR] compilesWithoutError_exceptionCreatedOrPassedThrough(com.google.testing.compile.JavaSourcesSubjectFactoryTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaSourceSubjectFactory
+	at com.google.testing.compile.JavaSourcesSubjectFactoryTest.compilesWithoutError_exceptionCreatedOrPassedThrough(JavaSourcesSubjectFactoryTest.java:364)
+Caused by: java.lang.ClassNotFoundException: com.google.testing.compile.JavaSourceSubjectFactory
+	at com.google.testing.compile.JavaSourcesSubjectFactoryTest.compilesWithoutError_exceptionCreatedOrPassedThrough(JavaSourcesSubjectFactoryTest.java:364)
+
+[ERROR] compilesWithoutError_warningNotInFile(com.google.testing.compile.JavaSourcesSubjectFactoryTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaFileObjects$ResourceSourceJavaFileObject
+	at com.google.testing.compile.JavaSourcesSubjectFactoryTest.compilesWithoutError_warningNotInFile(JavaSourcesSubjectFactoryTest.java:145)
+
+[ERROR] failsToCompile_noteNotAtColumn(com.google.testing.compile.JavaSourcesSubjectFactoryTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaSourceSubjectFactory
+	at com.google.testing.compile.JavaSourcesSubjectFactoryTest.failsToCompile_noteNotAtColumn(JavaSourcesSubjectFactoryTest.java:681)
+
+[ERROR] compilesWithoutError_failureReportsFiles(com.google.testing.compile.JavaSourcesSubjectFactoryTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaSourceSubjectFactory
+	at com.google.testing.compile.JavaSourcesSubjectFactoryTest.compilesWithoutError_failureReportsFiles(JavaSourcesSubjectFactoryTest.java:336)
+
+[ERROR] compilesWithoutError_warningNotOnLine(com.google.testing.compile.JavaSourcesSubjectFactoryTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaSourceSubjectFactory
+	at com.google.testing.compile.JavaSourcesSubjectFactoryTest.compilesWithoutError_warningNotOnLine(JavaSourcesSubjectFactoryTest.java:167)
+
+[ERROR] failsToCompile_noWarning(com.google.testing.compile.JavaSourcesSubjectFactoryTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaSourceSubjectFactory
+	at com.google.testing.compile.JavaSourcesSubjectFactoryTest.failsToCompile_noWarning(JavaSourcesSubjectFactoryTest.java:532)
+
+[ERROR] compilesWithoutError_wrongNoteCount(com.google.testing.compile.JavaSourcesSubjectFactoryTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaSourceSubjectFactory
+	at com.google.testing.compile.JavaSourcesSubjectFactoryTest.compilesWithoutError_wrongNoteCount(JavaSourcesSubjectFactoryTest.java:322)
+
+[ERROR] generatesSources_failWithNoGeneratedSources(com.google.testing.compile.JavaSourcesSubjectFactoryTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaSourceSubjectFactory
+	at com.google.testing.compile.JavaSourcesSubjectFactoryTest.generatesSources_failWithNoGeneratedSources(JavaSourcesSubjectFactoryTest.java:836)
+
+[ERROR] failsToCompile_throwsNotAtColumn(com.google.testing.compile.JavaSourcesSubjectFactoryTest)  Time elapsed: 0.006 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaFileObjects$ResourceSourceJavaFileObject
+	at com.google.testing.compile.JavaSourcesSubjectFactoryTest.failsToCompile_throwsNotAtColumn(JavaSourcesSubjectFactoryTest.java:492)
+
+[ERROR] compilesWithoutError_noNote(com.google.testing.compile.JavaSourcesSubjectFactoryTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaSourceSubjectFactory
+	at com.google.testing.compile.JavaSourcesSubjectFactoryTest.compilesWithoutError_noNote(JavaSourcesSubjectFactoryTest.java:243)
+
+[ERROR] compilesWithoutError_warningNotAtColumn(com.google.testing.compile.JavaSourcesSubjectFactoryTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaSourceSubjectFactory
+	at com.google.testing.compile.JavaSourcesSubjectFactoryTest.compilesWithoutError_warningNotAtColumn(JavaSourcesSubjectFactoryTest.java:188)
+
+[ERROR] compilesWithoutError_throws(com.google.testing.compile.JavaSourcesSubjectFactoryTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaSourceSubjectFactory
+	at com.google.testing.compile.JavaSourcesSubjectFactoryTest.compilesWithoutError_throws(JavaSourcesSubjectFactoryTest.java:350)
+
+[ERROR] compilesWithoutError_wrongWarningCount(com.google.testing.compile.JavaSourcesSubjectFactoryTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaSourceSubjectFactory
+	at com.google.testing.compile.JavaSourcesSubjectFactoryTest.compilesWithoutError_wrongWarningCount(JavaSourcesSubjectFactoryTest.java:210)
+
+[ERROR] compilesWithoutError_noteNotInFile(com.google.testing.compile.JavaSourcesSubjectFactoryTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaFileObjects$ResourceSourceJavaFileObject
+	at com.google.testing.compile.JavaSourcesSubjectFactoryTest.compilesWithoutError_noteNotInFile(JavaSourcesSubjectFactoryTest.java:257)
+
+[ERROR] compilesWithoutError_noteNotOnLine(com.google.testing.compile.JavaSourcesSubjectFactoryTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaSourceSubjectFactory
+	at com.google.testing.compile.JavaSourcesSubjectFactoryTest.compilesWithoutError_noteNotOnLine(JavaSourcesSubjectFactoryTest.java:278)
+
+[ERROR] compilesWithoutError_warnings(com.google.testing.compile.JavaSourcesSubjectFactoryTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaSourceSubjectFactory
+	at com.google.testing.compile.JavaSourcesSubjectFactoryTest.compilesWithoutError_warnings(JavaSourcesSubjectFactoryTest.java:99)
+
+[ERROR] generatesSources(com.google.testing.compile.JavaSourcesSubjectFactoryTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaSourceSubjectFactory
+	at com.google.testing.compile.JavaSourcesSubjectFactoryTest.generatesSources(JavaSourcesSubjectFactoryTest.java:739)
+
+[ERROR] invokesMultipleProcesors_asIterable(com.google.testing.compile.JavaSourcesSubjectFactoryTest)  Time elapsed: 0.01 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaSourceSubjectFactory
+	at com.google.testing.compile.JavaSourcesSubjectFactoryTest.invokesMultipleProcesors_asIterable(JavaSourcesSubjectFactoryTest.java:940)
+
+[ERROR] parsesAs_actualFileFailsToParse(com.google.testing.compile.JavaSourcesSubjectFactoryTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaSourceSubjectFactory
+	at com.google.testing.compile.JavaSourcesSubjectFactoryTest.parsesAs_actualFileFailsToParse(JavaSourcesSubjectFactoryTest.java:408)
+
+[ERROR] parsesAs_expectedFileFailsToParse(com.google.testing.compile.JavaSourcesSubjectFactoryTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaSourceSubjectFactory
+	at com.google.testing.compile.JavaSourcesSubjectFactoryTest.parsesAs_expectedFileFailsToParse(JavaSourcesSubjectFactoryTest.java:396)
+
+[ERROR] compilesWithoutError(com.google.testing.compile.JavaSourcesSubjectFactoryTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaSourceSubjectFactory
+	at com.google.testing.compile.JavaSourcesSubjectFactoryTest.compilesWithoutError(JavaSourcesSubjectFactoryTest.java:75)
+
+[ERROR] generatesFileNamed_failOnFileExistence(com.google.testing.compile.JavaSourcesSubjectFactoryTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaSourceSubjectFactory
+	at com.google.testing.compile.JavaSourcesSubjectFactoryTest.generatesFileNamed_failOnFileExistence(JavaSourcesSubjectFactoryTest.java:864)
+
+[ERROR] failsToCompile_warningNotInFile(com.google.testing.compile.JavaSourcesSubjectFactoryTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaFileObjects$ResourceSourceJavaFileObject
+	at com.google.testing.compile.JavaSourcesSubjectFactoryTest.failsToCompile_warningNotInFile(JavaSourcesSubjectFactoryTest.java:546)
+
+[ERROR] compilesWithoutWarnings(com.google.testing.compile.JavaSourcesSubjectFactoryTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaSourceSubjectFactory
+	at com.google.testing.compile.JavaSourcesSubjectFactoryTest.compilesWithoutWarnings(JavaSourcesSubjectFactoryTest.java:94)
+
+[ERROR] compilesWithoutError_noteNotAtColumn(com.google.testing.compile.JavaSourcesSubjectFactoryTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaSourceSubjectFactory
+	at com.google.testing.compile.JavaSourcesSubjectFactoryTest.compilesWithoutError_noteNotAtColumn(JavaSourcesSubjectFactoryTest.java:299)
+
+[ERROR] failsToCompile_warningNotOnLine(com.google.testing.compile.JavaSourcesSubjectFactoryTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaSourceSubjectFactory
+	at com.google.testing.compile.JavaSourcesSubjectFactoryTest.failsToCompile_warningNotOnLine(JavaSourcesSubjectFactoryTest.java:568)
+
+[ERROR] passesOptions(com.google.testing.compile.JavaSourcesSubjectFactoryTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaSourceSubjectFactory
+	at com.google.testing.compile.JavaSourcesSubjectFactoryTest.passesOptions(JavaSourcesSubjectFactoryTest.java:908)
+
+[ERROR] generatesSources_failWithNoCandidates(com.google.testing.compile.JavaSourcesSubjectFactoryTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaSourceSubjectFactory
+	at com.google.testing.compile.JavaSourcesSubjectFactoryTest.generatesSources_failWithNoCandidates(JavaSourcesSubjectFactoryTest.java:819)
+
+[ERROR] generatesSources_failOnUnexpected(com.google.testing.compile.JavaSourcesSubjectFactoryTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaSourceSubjectFactory
+	at com.google.testing.compile.JavaSourcesSubjectFactoryTest.generatesSources_failOnUnexpected(JavaSourcesSubjectFactoryTest.java:754)
+
+[ERROR] invokesMultipleProcesors(com.google.testing.compile.JavaSourcesSubjectFactoryTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaSourceSubjectFactory
+	at com.google.testing.compile.JavaSourcesSubjectFactoryTest.invokesMultipleProcesors(JavaSourcesSubjectFactoryTest.java:926)
+
+[ERROR] failsToCompile_wrongNoteCount(com.google.testing.compile.JavaSourcesSubjectFactoryTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaSourceSubjectFactory
+	at com.google.testing.compile.JavaSourcesSubjectFactoryTest.failsToCompile_wrongNoteCount(JavaSourcesSubjectFactoryTest.java:703)
+
+[ERROR] failsToCompile_noteNotInFile(com.google.testing.compile.JavaSourcesSubjectFactoryTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaFileObjects$ResourceSourceJavaFileObject
+	at com.google.testing.compile.JavaSourcesSubjectFactoryTest.failsToCompile_noteNotInFile(JavaSourcesSubjectFactoryTest.java:639)
+
+[ERROR] parsesAs(com.google.testing.compile.JavaSourcesSubjectFactoryTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaSourceSubjectFactory
+	at com.google.testing.compile.JavaSourcesSubjectFactoryTest.parsesAs(JavaSourcesSubjectFactoryTest.java:379)
+
+[ERROR] failsToCompile_throwsNotInFile(com.google.testing.compile.JavaSourcesSubjectFactoryTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaFileObjects$ResourceSourceJavaFileObject
+	at com.google.testing.compile.JavaSourcesSubjectFactoryTest.failsToCompile_throwsNotInFile(JavaSourcesSubjectFactoryTest.java:448)
+
+[ERROR] compilesWithoutError_notes(com.google.testing.compile.JavaSourcesSubjectFactoryTest)  Time elapsed: 0.015 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaSourceSubjectFactory
+	at com.google.testing.compile.JavaSourcesSubjectFactoryTest.compilesWithoutError_notes(JavaSourcesSubjectFactoryTest.java:222)
+
+[ERROR] failsToCompile_noteNotOnLine(com.google.testing.compile.JavaSourcesSubjectFactoryTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaSourceSubjectFactory
+	at com.google.testing.compile.JavaSourcesSubjectFactoryTest.failsToCompile_noteNotOnLine(JavaSourcesSubjectFactoryTest.java:660)
+
+[ERROR] failsToCompile_warningNotAtColumn(com.google.testing.compile.JavaSourcesSubjectFactoryTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaSourceSubjectFactory
+	at com.google.testing.compile.JavaSourcesSubjectFactoryTest.failsToCompile_warningNotAtColumn(JavaSourcesSubjectFactoryTest.java:589)
+
+[ERROR] generatesSources_failOnExtraActual(com.google.testing.compile.JavaSourcesSubjectFactoryTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaSourceSubjectFactory
+	at com.google.testing.compile.JavaSourcesSubjectFactoryTest.generatesSources_failOnExtraActual(JavaSourcesSubjectFactoryTest.java:795)
+
+[ERROR] failsToCompile_throwsNotOnLine(com.google.testing.compile.JavaSourcesSubjectFactoryTest)  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaFileObjects$ResourceSourceJavaFileObject
+	at com.google.testing.compile.JavaSourcesSubjectFactoryTest.failsToCompile_throwsNotOnLine(JavaSourcesSubjectFactoryTest.java:470)
+
+[ERROR] failsToCompile_noNote(com.google.testing.compile.JavaSourcesSubjectFactoryTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaSourceSubjectFactory
+	at com.google.testing.compile.JavaSourcesSubjectFactoryTest.failsToCompile_noNote(JavaSourcesSubjectFactoryTest.java:625)
+
+[ERROR] compilesWithoutWarnings_failsWithWarnings(com.google.testing.compile.JavaSourcesSubjectFactoryTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaSourceSubjectFactory
+	at com.google.testing.compile.JavaSourcesSubjectFactoryTest.compilesWithoutWarnings_failsWithWarnings(JavaSourcesSubjectFactoryTest.java:118)
+
+[ERROR] generatesSources_failOnExtraExpected(com.google.testing.compile.JavaSourcesSubjectFactoryTest)  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaSourceSubjectFactory
+	at com.google.testing.compile.JavaSourcesSubjectFactoryTest.generatesSources_failOnExtraExpected(JavaSourcesSubjectFactoryTest.java:772)
+
+[ERROR] generatesFileNamed_failOnFileContents(com.google.testing.compile.JavaSourcesSubjectFactoryTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaSourceSubjectFactory
+	at com.google.testing.compile.JavaSourcesSubjectFactoryTest.generatesFileNamed_failOnFileContents(JavaSourcesSubjectFactoryTest.java:882)
+
+[ERROR] generatesFileNamed(com.google.testing.compile.JavaSourcesSubjectFactoryTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaSourceSubjectFactory
+	at com.google.testing.compile.JavaSourcesSubjectFactoryTest.generatesFileNamed(JavaSourcesSubjectFactoryTest.java:851)
+
+[ERROR] failsToCompile(com.google.testing.compile.JavaSourcesSubjectFactoryTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaFileObjects$ResourceSourceJavaFileObject
+	at com.google.testing.compile.JavaSourcesSubjectFactoryTest.failsToCompile(JavaSourcesSubjectFactoryTest.java:715)
+
+[ERROR] failsToCompile_throws(com.google.testing.compile.JavaSourcesSubjectFactoryTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaSourceSubjectFactory
+	at com.google.testing.compile.JavaSourcesSubjectFactoryTest.failsToCompile_throws(JavaSourcesSubjectFactoryTest.java:421)
+
+[ERROR] failsToCompile_throwsNoMessage(com.google.testing.compile.JavaSourcesSubjectFactoryTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaSourceSubjectFactory
+	at com.google.testing.compile.JavaSourcesSubjectFactoryTest.failsToCompile_throwsNoMessage(JavaSourcesSubjectFactoryTest.java:434)
+
+[ERROR] failsToCompile_wrongErrorCount(com.google.testing.compile.JavaSourcesSubjectFactoryTest)  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaFileObjects$ResourceSourceJavaFileObject
+	at com.google.testing.compile.JavaSourcesSubjectFactoryTest.failsToCompile_wrongErrorCount(JavaSourcesSubjectFactoryTest.java:515)
+
+[ERROR] failsToCompile_wrongWarningCount(com.google.testing.compile.JavaSourcesSubjectFactoryTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaSourceSubjectFactory
+	at com.google.testing.compile.JavaSourcesSubjectFactoryTest.failsToCompile_wrongWarningCount(JavaSourcesSubjectFactoryTest.java:611)
+
+[ERROR] compilesWithoutError_noWarning(com.google.testing.compile.JavaSourcesSubjectFactoryTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaSourceSubjectFactory
+	at com.google.testing.compile.JavaSourcesSubjectFactoryTest.compilesWithoutError_noWarning(JavaSourcesSubjectFactoryTest.java:131)
+
+[ERROR] withStringContents(com.google.testing.compile.JavaSourcesSubjectFactoryTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/JavaSourceSubjectFactory
+	at com.google.testing.compile.JavaSourcesSubjectFactoryTest.withStringContents(JavaSourcesSubjectFactoryTest.java:896)
+
+[INFO] Running com.google.testing.compile.TreeContextTest
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in com.google.testing.compile.TreeContextTest
+[ERROR] initializationError(com.google.testing.compile.TreeContextTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/TreeContext
+Caused by: java.lang.ClassNotFoundException: com.google.testing.compile.TreeContext
+
+[INFO] Running com.google.testing.compile.TreeDifferTest
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification ListIterator_Set has been violated on line com.google.common.collect.ImmutableList.iterator(ImmutableList.java:382). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/ListIterator_Set.html
+ListIterator.set() can be made only if neither remove() nor add() have been called after the last call to next() or previous().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification ListIterator_Set has been violated on line com.google.common.collect.ImmutableList.iterator(ImmutableList.java:382). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/ListIterator_Set.html
+ListIterator.set() can be made only if neither remove() nor add() have been called after the last call to next() or previous().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+[ERROR] Tests run: 26, Failures: 0, Errors: 26, Skipped: 0, Time elapsed: 0.791 s <<< FAILURE! - in com.google.testing.compile.TreeDifferTest
+[ERROR] matchCompilationUnits_wrongOrder(com.google.testing.compile.TreeDifferTest)  Time elapsed: 0.019 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/TreeDiffer
+	at com.google.testing.compile.TreeDifferTest.matchCompilationUnits_wrongOrder(TreeDifferTest.java:586)
+Caused by: java.lang.ClassNotFoundException: com.google.testing.compile.TreeDiffer
+	at com.google.testing.compile.TreeDifferTest.matchCompilationUnits_wrongOrder(TreeDifferTest.java:586)
+
+[ERROR] scan_testExtraFields(com.google.testing.compile.TreeDifferTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/TreeDiffer
+	at com.google.testing.compile.TreeDifferTest.scan_testExtraFields(TreeDifferTest.java:200)
+
+[ERROR] scan_testTwoNullIterableTrees(com.google.testing.compile.TreeDifferTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/TreeDiffer
+	at com.google.testing.compile.TreeDifferTest.scan_testTwoNullIterableTrees(TreeDifferTest.java:229)
+
+[ERROR] scan_differentTypes(com.google.testing.compile.TreeDifferTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/TreeDiffer
+	at com.google.testing.compile.TreeDifferTest.scan_differentTypes(TreeDifferTest.java:219)
+
+[ERROR] matchCompilationUnits(com.google.testing.compile.TreeDifferTest)  Time elapsed: 0.05 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/TreeDiffer
+	at com.google.testing.compile.TreeDifferTest.matchCompilationUnits(TreeDifferTest.java:340)
+
+[ERROR] scan_testLambdasExplicitVsImplicit(com.google.testing.compile.TreeDifferTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/TreeDiffer
+	at com.google.testing.compile.TreeDifferTest.scan_testLambdasExplicitVsImplicit(TreeDifferTest.java:261)
+
+[ERROR] scan_sameCompilationUnit(com.google.testing.compile.TreeDifferTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/TreeDiffer
+	at com.google.testing.compile.TreeDifferTest.scan_sameCompilationUnit(TreeDifferTest.java:208)
+
+[ERROR] scan_testExpectedNullIterableTree(com.google.testing.compile.TreeDifferTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/TreeDiffer
+	at com.google.testing.compile.TreeDifferTest.scan_testExpectedNullIterableTree(TreeDifferTest.java:240)
+
+[ERROR] scan_testLambdasParensVsNone(com.google.testing.compile.TreeDifferTest)  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/TreeDiffer
+	at com.google.testing.compile.TreeDifferTest.scan_testLambdasParensVsNone(TreeDifferTest.java:268)
+
+[ERROR] scan_testLambdaVersusMethodReference(com.google.testing.compile.TreeDifferTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/TreeDiffer
+	at com.google.testing.compile.TreeDifferTest.scan_testLambdaVersusMethodReference(TreeDifferTest.java:276)
+
+[ERROR] scan_testLambdas(com.google.testing.compile.TreeDifferTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/TreeDiffer
+	at com.google.testing.compile.TreeDifferTest.scan_testLambdas(TreeDifferTest.java:254)
+
+[ERROR] scan_differingCompilationUnits(com.google.testing.compile.TreeDifferTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/TreeDiffer
+	at com.google.testing.compile.TreeDifferTest.scan_differingCompilationUnits(TreeDifferTest.java:160)
+
+[ERROR] matchCompilationUnits_missingMethodBodyStatement(com.google.testing.compile.TreeDifferTest)  Time elapsed: 0.021 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/TreeDiffer
+	at com.google.testing.compile.TreeDifferTest.matchCompilationUnits_missingMethodBodyStatement(TreeDifferTest.java:648)
+
+[ERROR] matchCompilationUnits_sameSignature_differentThrows(com.google.testing.compile.TreeDifferTest)  Time elapsed: 0.021 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/TreeDiffer
+	at com.google.testing.compile.TreeDifferTest.matchCompilationUnits_sameSignature_differentThrows(TreeDifferTest.java:499)
+
+[ERROR] matchCompilationUnits_sameSignature_differentParameterNames(com.google.testing.compile.TreeDifferTest)  Time elapsed: 0.034 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/TreeDiffer
+	at com.google.testing.compile.TreeDifferTest.matchCompilationUnits_sameSignature_differentParameterNames(TreeDifferTest.java:421)
+
+[ERROR] matchCompilationUnits_unresolvedTypeInPattern(com.google.testing.compile.TreeDifferTest)  Time elapsed: 0.013 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/TreeDiffer
+	at com.google.testing.compile.TreeDifferTest.matchCompilationUnits_unresolvedTypeInPattern(TreeDifferTest.java:369)
+
+[ERROR] matchCompilationUnits_sameSignature_differentModifiers(com.google.testing.compile.TreeDifferTest)  Time elapsed: 0.013 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/TreeDiffer
+	at com.google.testing.compile.TreeDifferTest.matchCompilationUnits_sameSignature_differentModifiers(TreeDifferTest.java:473)
+
+[ERROR] scan_testLambdaVersusAnonymousClass(com.google.testing.compile.TreeDifferTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/TreeDiffer
+	at com.google.testing.compile.TreeDifferTest.scan_testLambdaVersusAnonymousClass(TreeDifferTest.java:283)
+
+[ERROR] matchCompilationUnits_sameSignature_differentParameters(com.google.testing.compile.TreeDifferTest)  Time elapsed: 0.016 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/TreeDiffer
+	at com.google.testing.compile.TreeDifferTest.matchCompilationUnits_sameSignature_differentParameters(TreeDifferTest.java:447)
+
+[ERROR] matchCompilationUnits_missingParameter(com.google.testing.compile.TreeDifferTest)  Time elapsed: 0.018 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/TreeDiffer
+	at com.google.testing.compile.TreeDifferTest.matchCompilationUnits_missingParameter(TreeDifferTest.java:614)
+
+[ERROR] matchCompilationUnits_importsWithSameSimpleName(com.google.testing.compile.TreeDifferTest)  Time elapsed: 0.019 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/TreeDiffer
+	at com.google.testing.compile.TreeDifferTest.matchCompilationUnits_importsWithSameSimpleName(TreeDifferTest.java:556)
+
+[ERROR] matchCompilationUnits_skipsImports(com.google.testing.compile.TreeDifferTest)  Time elapsed: 0.013 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/TreeDiffer
+	at com.google.testing.compile.TreeDifferTest.matchCompilationUnits_skipsImports(TreeDifferTest.java:677)
+
+[ERROR] matchCompilationUnits_variablesWithDifferentTypes(com.google.testing.compile.TreeDifferTest)  Time elapsed: 0.012 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/TreeDiffer
+	at com.google.testing.compile.TreeDifferTest.matchCompilationUnits_variablesWithDifferentTypes(TreeDifferTest.java:525)
+
+[ERROR] matchCompilationUnits_sameSignature_differentReturnType(com.google.testing.compile.TreeDifferTest)  Time elapsed: 0.017 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/TreeDiffer
+	at com.google.testing.compile.TreeDifferTest.matchCompilationUnits_sameSignature_differentReturnType(TreeDifferTest.java:395)
+
+[ERROR] scan_identicalMethods(com.google.testing.compile.TreeDifferTest)  Time elapsed: 0.004 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/TreeDiffer
+	at com.google.testing.compile.TreeDifferTest.scan_identicalMethods(TreeDifferTest.java:213)
+
+[ERROR] scan_testActualNullIterableTree(com.google.testing.compile.TreeDifferTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/TreeDiffer
+	at com.google.testing.compile.TreeDifferTest.scan_testActualNullIterableTree(TreeDifferTest.java:247)
+
+[INFO] Running com.google.testing.compile.TreeDifferenceTest
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.google.testing.compile.TreeDifferenceTest
+[ERROR] initializationError(com.google.testing.compile.TreeDifferenceTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/TreeDifference
+Caused by: java.lang.ClassNotFoundException: com.google.testing.compile.TreeDifference
+
+[INFO] Running com.google.testing.compile.TypeEnumeratorTest
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:301). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line com.google.common.collect.Iterators.getOnlyElement(Iterators.java:302). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+[ERROR] Tests run: 8, Failures: 0, Errors: 8, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in com.google.testing.compile.TypeEnumeratorTest
+[ERROR] getTopLevelTypes_singleQualifiedType(com.google.testing.compile.TypeEnumeratorTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/TypeEnumerator
+	at com.google.testing.compile.TypeEnumeratorTest.getTopLevelTypes_singleQualifiedType(TypeEnumeratorTest.java:43)
+Caused by: java.lang.ClassNotFoundException: com.google.testing.compile.TypeEnumerator
+	at com.google.testing.compile.TypeEnumeratorTest.getTopLevelTypes_singleQualifiedType(TypeEnumeratorTest.java:43)
+
+[ERROR] getTopLevelTypes_singleSimpleTypes(com.google.testing.compile.TypeEnumeratorTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/TypeEnumerator
+	at com.google.testing.compile.TypeEnumeratorTest.getTopLevelTypes_singleSimpleTypes(TypeEnumeratorTest.java:76)
+
+[ERROR] getTopLevelTypes_manyQualifiedTypes(com.google.testing.compile.TypeEnumeratorTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/TypeEnumerator
+	at com.google.testing.compile.TypeEnumeratorTest.getTopLevelTypes_manyQualifiedTypes(TypeEnumeratorTest.java:61)
+
+[ERROR] getTopLevelTypes_worksForEnums(com.google.testing.compile.TypeEnumeratorTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/TypeEnumerator
+	at com.google.testing.compile.TypeEnumeratorTest.getTopLevelTypes_worksForEnums(TypeEnumeratorTest.java:119)
+
+[ERROR] getTopLevelTypes_worksForNull(com.google.testing.compile.TypeEnumeratorTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/TypeEnumerator
+	at com.google.testing.compile.TypeEnumeratorTest.getTopLevelTypes_worksForNull(TypeEnumeratorTest.java:139)
+
+[ERROR] getTopLevelTypes_manySimpleTypes(com.google.testing.compile.TypeEnumeratorTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/TypeEnumerator
+	at com.google.testing.compile.TypeEnumeratorTest.getTopLevelTypes_manySimpleTypes(TypeEnumeratorTest.java:92)
+
+[ERROR] getTopLevelTypes_worksForInterfaces(com.google.testing.compile.TypeEnumeratorTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/TypeEnumerator
+	at com.google.testing.compile.TypeEnumeratorTest.getTopLevelTypes_worksForInterfaces(TypeEnumeratorTest.java:133)
+
+[ERROR] getTopLevelTypes_worksForAnnotationTypes(com.google.testing.compile.TypeEnumeratorTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/google/testing/compile/TypeEnumerator
+	at com.google.testing.compile.TypeEnumeratorTest.getTopLevelTypes_worksForAnnotationTypes(TypeEnumeratorTest.java:104)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   BreadcrumbsTest.describeTreePath:47 NoClassDefFound com/google/testing/compile...
+[ERROR]   CompilationRuleTest.initializationError ? NoClassDefFound Lcom/google/testing/...
+[ERROR]   CompilationSubjectTest.initializationError ? NoClassDefFound com/google/testin...
+[ERROR]   CompilationTest.initializationError ? NoClassDefFound com/google/testing/compi...
+[ERROR]   CompilerTest.classPath_customFiles ? NoClassDefFound Could not initialize clas...
+[ERROR]   CompilerTest.classPath_customFiles_urlClassLoader ? NoClassDefFound Could not ...
+[ERROR]   CompilerTest.classPath_default ? NoClassDefFound Could not initialize class co...
+[ERROR]   CompilerTest.classPath_empty ? NoClassDefFound Could not initialize class com....
+[ERROR]   CompilerTest.<clinit>:51 ? NoClassDefFound com/google/testing/compile/JavaFile...
+[ERROR]   CompilerTest.multipleProcesors ? NoClassDefFound Could not initialize class co...
+[ERROR]   CompilerTest.multipleProcesors_asIterable ? NoClassDefFound Could not initiali...
+[ERROR]   CompilerTest.options ? NoClassDefFound Could not initialize class com.google.t...
+[ERROR]   CompilerTest.releaseFlag ? NoClassDefFound Could not initialize class com.goog...
+[ERROR]   JarFileResourcesCompilationTest.compilesResourcesInJarFiles:61 NoClassDefFound
+[ERROR]   JavaFileObjectSubjectTest.containsElementsIn_completeMatch:197 NoClassDefFound
+[ERROR]   JavaFileObjectSubjectTest.contentsAsString:87 NoClassDefFound com/google/testi...
+[ERROR]   JavaFileObjectSubjectTest.contentsAsString_fail:94 NoClassDefFound com/google/...
+[ERROR]   JavaFileObjectSubjectTest.hasContents:71 NoClassDefFound com/google/testing/co...
+[ERROR]   JavaFileObjectSubjectTest.hasContents_failure:78 NoClassDefFound com/google/te...
+[ERROR]   JavaFileObjectSubjectTest.hasSourceEquivalentTo:106 NoClassDefFound com/google...
+[ERROR]   JavaFileObjectSubjectTest.hasSourceEquivalentTo_failOnDifferences:118 NoClassDefFound
+[ERROR]   JavaFileObjectSubjectTest.hasSourceEquivalentTo_failOnExtraInActual:145 NoClassDefFound
+[ERROR]   JavaFileObjectSubjectTest.hasSourceEquivalentTo_failOnExtraInExpected:131 NoClassDefFound
+[ERROR]   JavaFileObjectSubjectTest.hasSourceEquivalentTo_unresolvedReferences:111 NoClassDefFound
+[ERROR]   JavaFileObjectsTest.forResource_inJarFile:38 ? NoClassDefFound com/google/test...
+[ERROR]   JavaSourcesSubjectFactoryTest.compilesWithoutError:75 NoClassDefFound com/goog...
+[ERROR]   JavaSourcesSubjectFactoryTest.compilesWithoutError_exceptionCreatedOrPassedThrough:364 NoClassDefFound
+[ERROR]   JavaSourcesSubjectFactoryTest.compilesWithoutError_failureReportsFiles:336 NoClassDefFound
+[ERROR]   JavaSourcesSubjectFactoryTest.compilesWithoutError_noNote:243 NoClassDefFound ...
+[ERROR]   JavaSourcesSubjectFactoryTest.compilesWithoutError_noWarning:131 NoClassDefFound
+[ERROR]   JavaSourcesSubjectFactoryTest.compilesWithoutError_noteNotAtColumn:299 NoClassDefFound
+[ERROR]   JavaSourcesSubjectFactoryTest.compilesWithoutError_noteNotInFile:257 ? NoClassDefFound
+[ERROR]   JavaSourcesSubjectFactoryTest.compilesWithoutError_noteNotOnLine:278 NoClassDefFound
+[ERROR]   JavaSourcesSubjectFactoryTest.compilesWithoutError_notes:222 NoClassDefFound c...
+[ERROR]   JavaSourcesSubjectFactoryTest.compilesWithoutError_throws:350 NoClassDefFound ...
+[ERROR]   JavaSourcesSubjectFactoryTest.compilesWithoutError_warningNotAtColumn:188 NoClassDefFound
+[ERROR]   JavaSourcesSubjectFactoryTest.compilesWithoutError_warningNotInFile:145 ? NoClassDefFound
+[ERROR]   JavaSourcesSubjectFactoryTest.compilesWithoutError_warningNotOnLine:167 NoClassDefFound
+[ERROR]   JavaSourcesSubjectFactoryTest.compilesWithoutError_warnings:99 NoClassDefFound
+[ERROR]   JavaSourcesSubjectFactoryTest.compilesWithoutError_wrongNoteCount:322 NoClassDefFound
+[ERROR]   JavaSourcesSubjectFactoryTest.compilesWithoutError_wrongWarningCount:210 NoClassDefFound
+[ERROR]   JavaSourcesSubjectFactoryTest.compilesWithoutWarnings:94 NoClassDefFound com/g...
+[ERROR]   JavaSourcesSubjectFactoryTest.compilesWithoutWarnings_failsWithWarnings:118 NoClassDefFound
+[ERROR]   JavaSourcesSubjectFactoryTest.failsToCompile:715 ? NoClassDefFound com/google/...
+[ERROR]   JavaSourcesSubjectFactoryTest.failsToCompile_noNote:625 NoClassDefFound com/go...
+[ERROR]   JavaSourcesSubjectFactoryTest.failsToCompile_noWarning:532 NoClassDefFound com...
+[ERROR]   JavaSourcesSubjectFactoryTest.failsToCompile_noteNotAtColumn:681 NoClassDefFound
+[ERROR]   JavaSourcesSubjectFactoryTest.failsToCompile_noteNotInFile:639 ? NoClassDefFound
+[ERROR]   JavaSourcesSubjectFactoryTest.failsToCompile_noteNotOnLine:660 NoClassDefFound
+[ERROR]   JavaSourcesSubjectFactoryTest.failsToCompile_throws:421 NoClassDefFound com/go...
+[ERROR]   JavaSourcesSubjectFactoryTest.failsToCompile_throwsNoMessage:434 NoClassDefFound
+[ERROR]   JavaSourcesSubjectFactoryTest.failsToCompile_throwsNotAtColumn:492 ? NoClassDefFound
+[ERROR]   JavaSourcesSubjectFactoryTest.failsToCompile_throwsNotInFile:448 ? NoClassDefFound
+[ERROR]   JavaSourcesSubjectFactoryTest.failsToCompile_throwsNotOnLine:470 ? NoClassDefFound
+[ERROR]   JavaSourcesSubjectFactoryTest.failsToCompile_warningNotAtColumn:589 NoClassDefFound
+[ERROR]   JavaSourcesSubjectFactoryTest.failsToCompile_warningNotInFile:546 ? NoClassDefFound
+[ERROR]   JavaSourcesSubjectFactoryTest.failsToCompile_warningNotOnLine:568 NoClassDefFound
+[ERROR]   JavaSourcesSubjectFactoryTest.failsToCompile_wrongErrorCount:515 ? NoClassDefFound
+[ERROR]   JavaSourcesSubjectFactoryTest.failsToCompile_wrongNoteCount:703 NoClassDefFound
+[ERROR]   JavaSourcesSubjectFactoryTest.failsToCompile_wrongWarningCount:611 NoClassDefFound
+[ERROR]   JavaSourcesSubjectFactoryTest.generatesFileNamed:851 NoClassDefFound com/googl...
+[ERROR]   JavaSourcesSubjectFactoryTest.generatesFileNamed_failOnFileContents:882 NoClassDefFound
+[ERROR]   JavaSourcesSubjectFactoryTest.generatesFileNamed_failOnFileExistence:864 NoClassDefFound
+[ERROR]   JavaSourcesSubjectFactoryTest.generatesSources:739 NoClassDefFound com/google/...
+[ERROR]   JavaSourcesSubjectFactoryTest.generatesSources_failOnExtraActual:795 NoClassDefFound
+[ERROR]   JavaSourcesSubjectFactoryTest.generatesSources_failOnExtraExpected:772 NoClassDefFound
+[ERROR]   JavaSourcesSubjectFactoryTest.generatesSources_failOnUnexpected:754 NoClassDefFound
+[ERROR]   JavaSourcesSubjectFactoryTest.generatesSources_failWithNoCandidates:819 NoClassDefFound
+[ERROR]   JavaSourcesSubjectFactoryTest.generatesSources_failWithNoGeneratedSources:836 NoClassDefFound
+[ERROR]   JavaSourcesSubjectFactoryTest.invokesMultipleProcesors:926 NoClassDefFound com...
+[ERROR]   JavaSourcesSubjectFactoryTest.invokesMultipleProcesors_asIterable:940 NoClassDefFound
+[ERROR]   JavaSourcesSubjectFactoryTest.parsesAs:379 NoClassDefFound com/google/testing/...
+[ERROR]   JavaSourcesSubjectFactoryTest.parsesAs_actualFileFailsToParse:408 NoClassDefFound
+[ERROR]   JavaSourcesSubjectFactoryTest.parsesAs_expectedFileFailsToParse:396 NoClassDefFound
+[ERROR]   JavaSourcesSubjectFactoryTest.passesOptions:908 NoClassDefFound com/google/tes...
+[ERROR]   JavaSourcesSubjectFactoryTest.withStringContents:896 NoClassDefFound com/googl...
+[ERROR]   TreeContextTest.initializationError ? NoClassDefFound com/google/testing/compi...
+[ERROR]   TreeDifferTest.matchCompilationUnits:340 NoClassDefFound com/google/testing/co...
+[ERROR]   TreeDifferTest.matchCompilationUnits_importsWithSameSimpleName:556 NoClassDefFound
+[ERROR]   TreeDifferTest.matchCompilationUnits_missingMethodBodyStatement:648 NoClassDefFound
+[ERROR]   TreeDifferTest.matchCompilationUnits_missingParameter:614 NoClassDefFound com/...
+[ERROR]   TreeDifferTest.matchCompilationUnits_sameSignature_differentModifiers:473 NoClassDefFound
+[ERROR]   TreeDifferTest.matchCompilationUnits_sameSignature_differentParameterNames:421 NoClassDefFound
+[ERROR]   TreeDifferTest.matchCompilationUnits_sameSignature_differentParameters:447 NoClassDefFound
+[ERROR]   TreeDifferTest.matchCompilationUnits_sameSignature_differentReturnType:395 NoClassDefFound
+[ERROR]   TreeDifferTest.matchCompilationUnits_sameSignature_differentThrows:499 NoClassDefFound
+[ERROR]   TreeDifferTest.matchCompilationUnits_skipsImports:677 NoClassDefFound com/goog...
+[ERROR]   TreeDifferTest.matchCompilationUnits_unresolvedTypeInPattern:369 NoClassDefFound
+[ERROR]   TreeDifferTest.matchCompilationUnits_variablesWithDifferentTypes:525 NoClassDefFound
+[ERROR]   TreeDifferTest.matchCompilationUnits_wrongOrder:586 NoClassDefFound com/google...
+[ERROR]   TreeDifferTest.scan_differentTypes:219 NoClassDefFound com/google/testing/comp...
+[ERROR]   TreeDifferTest.scan_differingCompilationUnits:160 NoClassDefFound com/google/t...
+[ERROR]   TreeDifferTest.scan_identicalMethods:213 NoClassDefFound com/google/testing/co...
+[ERROR]   TreeDifferTest.scan_sameCompilationUnit:208 NoClassDefFound com/google/testing...
+[ERROR]   TreeDifferTest.scan_testActualNullIterableTree:247 NoClassDefFound com/google/...
+[ERROR]   TreeDifferTest.scan_testExpectedNullIterableTree:240 NoClassDefFound com/googl...
+[ERROR]   TreeDifferTest.scan_testExtraFields:200 NoClassDefFound com/google/testing/com...
+[ERROR]   TreeDifferTest.scan_testLambdaVersusAnonymousClass:283 NoClassDefFound com/goo...
+[ERROR]   TreeDifferTest.scan_testLambdaVersusMethodReference:276 NoClassDefFound com/go...
+[ERROR]   TreeDifferTest.scan_testLambdas:254 NoClassDefFound com/google/testing/compile...
+[ERROR]   TreeDifferTest.scan_testLambdasExplicitVsImplicit:261 NoClassDefFound com/goog...
+[ERROR]   TreeDifferTest.scan_testLambdasParensVsNone:268 NoClassDefFound com/google/tes...
+[ERROR]   TreeDifferTest.scan_testTwoNullIterableTrees:229 NoClassDefFound com/google/te...
+[ERROR]   TreeDifferenceTest.initializationError ? NoClassDefFound com/google/testing/co...
+[ERROR]   TypeEnumeratorTest.getTopLevelTypes_manyQualifiedTypes:61 NoClassDefFound com/...
+[ERROR]   TypeEnumeratorTest.getTopLevelTypes_manySimpleTypes:92 NoClassDefFound com/goo...
+[ERROR]   TypeEnumeratorTest.getTopLevelTypes_singleQualifiedType:43 NoClassDefFound com...
+[ERROR]   TypeEnumeratorTest.getTopLevelTypes_singleSimpleTypes:76 NoClassDefFound com/g...
+[ERROR]   TypeEnumeratorTest.getTopLevelTypes_worksForAnnotationTypes:104 NoClassDefFound
+[ERROR]   TypeEnumeratorTest.getTopLevelTypes_worksForEnums:119 NoClassDefFound com/goog...
+[ERROR]   TypeEnumeratorTest.getTopLevelTypes_worksForInterfaces:133 NoClassDefFound com...
+[ERROR]   TypeEnumeratorTest.getTopLevelTypes_worksForNull:139 NoClassDefFound com/googl...
+[INFO] 
+[ERROR] Tests run: 119, Failures: 0, Errors: 112, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  26.986 s
+[INFO] Finished at: 2023-10-02T19:38:12Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.20:test (default-test) on project compile-testing: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /workspaces/rv-project/scripts-emop/repos/compile-testing/target/surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date]-jvmRun[N].dump, [date].dumpstream and [date]-jvmRun[N].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
