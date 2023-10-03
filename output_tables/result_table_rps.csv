@@ -1,4 +1,0 @@
-Project,Commit,Type,ChangedClasses,ImpactedClasses,AffectedSpecs,Total time
-joda-time,bdcbf2e,rps,0,532,74,52.253 s
-joda-time,c1d26c0,rps,0,0,0,10.822 s
-joda-time,b9b872f,rps,4,518,74,39.576 s

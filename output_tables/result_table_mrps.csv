@@ -1,4 +1,8 @@
-Project,Commit,Type,ImpactedMethods,ChangedMethods,NewMethods,ChangedClasses,NewClasses,AffectedTestClasses,OldClasses,AffectedSpecs,Total time
-joda-time,bdcbf2e,mrps,10327,0,10327,0,531,151,0,69,56.236 s
-joda-time,c1d26c0,mrps,0,0,0,0,0,0,531,0,12.811 s
-joda-time,b9b872f,mrps,28,3,9,4,0,127,531,3,20.898 s
+
+la4j,c24d0df,mrps,1781,0,1781,0,240,29,0,35,38.560 s
+la4j,be84547,mrps,517,25,0,11,0,26,240,17,35.114 s
+la4j,dd1b917,mrps,351,7,29,17,0,29,240,27,37.956 s
+commons-codec,53658793,mrps,2108,0,2108,0,191,70,0,30,04:00 min
+commons-codec,e42dfe1f,mrps,4,0,4,1,0,1,191,0,28.493 s
+commons-codec,3535c17e,mrps,3,2,1,3,0,3,191,0,31.073 s
+

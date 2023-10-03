@@ -1,4 +1,0 @@
-Project,Commit,Type,ImpactedMethods,ChangedMethods,NewMethods,ChangedClassesWithChangedHeaders,ChangedClassesWithoutChangedHeaders,NewClasses,DeletedClasses,AffectedTestClasses,OldClasses,ImpactedClasses,AffectedSpecs,Total time
-joda-time,bdcbf2e,hrps,10327,0,10327,0,0,531,0,151,0,531,74,58.261 s
-joda-time,c1d26c0,hrps,0,0,0,0,0,0,0,0,531,0,0,12.974 s
-joda-time,b9b872f,hrps,28,3,9,0,4,0,0,127,531,0,3,22.564 s
