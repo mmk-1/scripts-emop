@@ -1,10 +1,4 @@
-Project,Commit,Type,ImpactedMethods,ChangedMethods,NewMethods,ChangedClassesWithChangedHeaders,ChangedClassesWithoutChangedHeaders,NewClasses,DeletedClasses,AffectedTestClasses,OldClasses,ImpactedClasses,AffectedSpecs,Total time
-commons-compress,2ed55677,hrps,4504,0,4504,0,0,569,0,140,0,569,79,01:50 min
-commons-compress,d8ca982f,hrps,1024,18,0,0,13,0,0,82,569,0,62,01:35 min
-commons-compress,40b1d2fb,hrps,1059,33,3,1,19,1,0,89,569,179,77,01:44 min
-commons-codec,53658793,hrps,2108,0,2108,0,0,191,0,70,0,191,69,01:17 min
-commons-codec,e42dfe1f,hrps,4,0,4,0,1,0,0,1,191,0,0,25.286 s
-commons-codec,3535c17e,hrps,3,2,1,0,3,0,0,3,191,0,0,27.320 s
-commons-compress,2ed55677,hrps,4504,0,4504,0,0,569,0,140,0,569,79,01:50 min
-commons-compress,d8ca982f,hrps,1024,18,0,0,13,0,0,82,569,0,62,01:35 min
-commons-compress,40b1d2fb,hrps,1059,33,3,1,19,1,0,89,569,179,77,01:44 min
+Project,Commit,Type,ImpactedMethods,ChangedMethods,NewMethods,ChangedClassesWithChangedHeaders,ChangedClassesWithoutChangedHeaders,NewClasses,DeletedClasses,AffectedTestClasses,OldClasses,ImpactedClasses,AffectedSpecs,Total time,Execute ImpactedMethods Mojo (ms),Compile-time weaving (ms),Compute affected specs (ms),Write affected specs to disk (ms),Generating aop-ajc.xml and replace it (ms),Analysis time (s)
+joda-time,27edfff,hrps,10336,0,10336,0,0,531,0,151,0,531,74,49.049 s,2002,15206,3013,66,74,20.361
+joda-time,848e719,hrps,5270,11,9,0,17,0,0,127,531,0,61,34.678 s,2044,3928,1560,57,63,7.652
+joda-time,806da07,hrps,17,7,3,0,7,0,0,9,531,0,38,29.631 s,2015,3376,803,58,58,6.31

@@ -63,13 +63,17 @@ with open(log_path, 'r') as file:
     # Search for time taken line
     emop_time_matches = re.findall(emop_time_pattern, data)
     if emop_time_matches:
-        print(emop_time_matches)
+        # print(emop_time_matches)
+        analysis_time = 0
         for emop_time_match in emop_time_matches:
             head = emop_time_match[0]
-            tail = emop_time_match[1]
+            time = emop_time_match[1]
             if head not in csv_header:
-                csv_header.append(head)
-            row_data.append(tail)
+                csv_header.append(head + " (ms)")
+            row_data.append(time)
+            analysis_time += int(time)
+        csv_header.append("Analysis time (s)")
+        row_data.append(analysis_time/1000)
     
     # Write results to CSV file
     with open(output_path, mode='a', newline='') as result_table:
