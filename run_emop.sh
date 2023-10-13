@@ -67,7 +67,7 @@ do
             sed -i "/<\/plugins>/i\\$PLUGIN" pom.xml
             # mvn emop:$granularity -Drat.skip | tee -a $RESULTS_DIR/$project/$commit/$granularity.txt
             LOG_PATH=$RESULTS_DIR/$project/$commit/$granularity.txt
-            mvn emop:$granularity -Drat.skip | tee >(grep -P "\[INFO\] Total time:\s+([\d.:]+\s\w+)" >> $LOG_PATH) >(grep -P "INFO: (.+: \d+)" >> $LOG_PATH) >(grep -P "\[INFO\] AffectedSpecs: (\d+)" >> $LOG_PATH) >(grep -P "\[INFO\] BUILD \w+" >> log.txt)
+            mvn emop:$granularity -Drat.skip | tee >(grep -P "\[INFO\] Total time:\s+([\d.:]+\s\w+)" >> $LOG_PATH) >(grep -P "INFO: (.+: \d+)" >> $LOG_PATH) >(grep -P "\[INFO\] AffectedSpecs: (\d+)" >> $LOG_PATH) >(grep -P "\[INFO\] BUILD \w+" >> log.txt) >(grep -P "\[INFO\] \[eMOP Timer\] \w+" >> log.txt)
             # echo "=====" >> $ROOT_DIR/results/$project/$commit/$granularity.txt
             
             rm -rf $REPOS_DIR/.starts/

@@ -17,6 +17,7 @@ output_path = f"{root_path}/output_tables/result_table_{granularity}.csv"
 info_pattern = "INFO: (.+: \d+)"
 affected_specs_pattern = r"\[INFO\] AffectedSpecs: (\d+)"
 time_pattern = r"\[INFO\] Total time:\s+([\d.:]+\s\w+)"
+emop_time_pattern = r"\[INFO\] \[eMOP Timer\] (.+) takes (\d+) ms"
 
 # Define headers for different granularities
 headers = {
@@ -58,6 +59,17 @@ with open(log_path, 'r') as file:
     time_match = re.search(time_pattern, data)
     if time_match:
         row_data.append(time_match.group(1))
+
+    # Search for time taken line
+    emop_time_matches = re.findall(emop_time_pattern, data)
+    if emop_time_matches:
+        print(emop_time_matches)
+        for emop_time_match in emop_time_matches:
+            head = emop_time_match[0]
+            tail = emop_time_match[1]
+            if head not in csv_header:
+                csv_header.append(head)
+            row_data.append(tail)
     
     # Write results to CSV file
     with open(output_path, mode='a', newline='') as result_table:
