@@ -1,0 +1,16 @@
+Project,Commit,Type,Total time
+la4j,c24d0df,test,0,9.224 s
+la4j,be84547,test,0,9.022 s
+la4j,dd1b917,test,0,8.831 s
+commons-codec,53658793,test,0,22.443 s
+commons-codec,e42dfe1f,test,0,21.640 s
+commons-codec,3535c17e,test,0,22.391 s
+joda-time,27edfff,test,0,12.944 s
+joda-time,848e719,test,0,10.053 s
+joda-time,806da07,test,0,10.176 s
+commons-fileupload,3ee89c5,test,0,44.108 s
+commons-fileupload,5c1c9d1,test,0,8.279 s
+commons-fileupload,f0c1150,test,0,8.422 s
+commons-compress,2ed55677,test,0,40.660 s
+commons-compress,d8ca982f,test,0,21.450 s
+commons-compress,40b1d2fb,test,0,22.425 s

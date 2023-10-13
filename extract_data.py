@@ -23,6 +23,7 @@ headers = {
     "hrps": ["Project", "Commit", "Type", "ImpactedMethods", "ChangedMethods", "NewMethods", "ChangedClassesWithChangedHeaders", "ChangedClassesWithoutChangedHeaders", "NewClasses", "DeletedClasses", "AffectedTestClasses", "OldClasses", "ImpactedClasses", "AffectedSpecs", "Total time"],
     "mrps": ["Project", "Commit", "Type", "ImpactedMethods", "ChangedMethods", "NewMethods", "ChangedClasses", "NewClasses", "AffectedTestClasses", "OldClasses", "AffectedSpecs", "Total time"],
     "rps": ["Project", "Commit", "Type", "ChangedClasses", "ImpactedClasses", "AffectedSpecs", "Total time"],
+    "test": ["Project", "Commit", "Type", "Total time"],
 }
 
 # Check if granularity is valid

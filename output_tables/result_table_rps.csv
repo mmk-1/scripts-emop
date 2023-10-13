@@ -2,3 +2,9 @@ Project,Commit,Type,ChangedClasses,ImpactedClasses,AffectedSpecs,Total time
 commons-compress,2ed55677,rps,0,579,79,01:52 min
 commons-compress,d8ca982f,rps,13,279,76,01:40 min
 commons-compress,40b1d2fb,rps,20,291,76,01:39 min
+commons-codec,53658793,rps,0,193,69,01:17 min
+commons-codec,e42dfe1f,rps,1,3,18,40.717 s
+commons-codec,3535c17e,rps,3,7,21,40.994 s
+commons-compress,2ed55677,rps,0,579,79,01:52 min
+commons-compress,d8ca982f,rps,13,279,76,01:40 min
+commons-compress,40b1d2fb,rps,20,291,76,01:39 min

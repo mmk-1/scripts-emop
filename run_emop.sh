@@ -61,7 +61,7 @@ do
         do
             mkdir -p $RESULTS_DIR/$project/$commit/
             git checkout $commit -f
-            mvn clean
+            mvn clean test # To make sure dependencies are installed
             rm -rf .starts/
             cp -r ../.starts/ ./.starts/
             sed -i "/<\/plugins>/i\\$PLUGIN" pom.xml
